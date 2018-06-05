@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>pay_支付宝</title>
+	</head>
+	<body>
+	</body>
+	<script src="https://gw.alipayobjects.com/as/g/h5-lib/alipayjsapi/3.1.1/alipayjsapi.min.js"></script>
+	<script type="text/javascript">
+		//Promise 方式：
+		ap.chooseImage()
+		 .then(function(result){
+		    return new Promise(function(resolve, reject) {
+		      yourImageDom.onload = resolve;
+		      yourImageDom.onerror = reject;
+		      yourImageDom.src = result.apFilePaths[0];
+		    })
+		  })
+		  .then(function(){
+		    return ap.alert('图片加载成功');
+		  })
+		  .catch(function(){
+		    ap.showToast('图片加载失败');
+		  });
+		  
+		  
+		  //回调方式：
+			ap.chooseImage(function(res){
+			  if(res.apFilePaths && res.apFilePaths.length > 0) {
+			    yourImageDom.onload = function() {
+			      ap.alert('图片加载成功');
+			    };
+			    yourImageDom.onerror = function() {
+			      ap.showToast('图片加载失败');
+			    };
+			    yourImageDom.src = res.apFilePaths[0];
+			  }
+			});
+			
+			ap.confirm('Hello Alipay!', function(result){
+			  ap.showToast(result.confirm ? '确定' : '取消');
+			});
+	</script>
+
+</html>
