@@ -4,7 +4,7 @@
  * @Author: Kenny
  * @Date: 2022-09-14 15:29:06
  * @LastEditors: ~
- * @LastEditTime: 2023-11-09 17:46:25
+ * @LastEditTime: 2023-11-10 09:56:12
 -->
 
 # GIT
@@ -36,6 +36,9 @@
          //避免重复输入用户信息
          git config --global credential.helper store
          git pull /git push (第一次输入，后续就不用再次数据)
+         //解决：Github 禁用了TLS v1.0 and v1.1，必须更新Windows的git凭证管理器
+         https://github.com/Microsoft/Git-Credential-Manager-for-Windows/releases
+         (安装GCMW)
 
 ### GIt 提交：
 
