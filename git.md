@@ -4,7 +4,7 @@
  * @Author: Kenny
  * @Date: 2022-09-14 15:29:06
  * @LastEditors: ~
- * @LastEditTime: 2023-11-10 09:56:12
+ * @LastEditTime: 2023-11-16 16:28:58
 -->
 
 # GIT
@@ -66,6 +66,11 @@
             git push origin 分支名
             git rm “... ”文件 删除
             git rm -r “... ”文件夹/ 如果你要删除的，是空的文件夹，此处可以不用带上-r
+            分支branch
+                      查看                    删除
+            本地：git branch              git branch -d [name] (强制删除使用-D)
+            远程：git branch -r           git push origin :heads/[name]
+                  
 
 ### cmd
 
