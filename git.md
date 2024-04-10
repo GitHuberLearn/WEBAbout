@@ -4,7 +4,7 @@
  * @Author: Kenny
  * @Date: 2022-09-14 15:29:06
  * @LastEditors: ~
- * @LastEditTime: 2023-11-16 16:28:58
+ * @LastEditTime: 2024-04-10 10:55:27
 -->
 
 # GIT
@@ -40,7 +40,7 @@
          https://github.com/Microsoft/Git-Credential-Manager-for-Windows/releases
          (安装GCMW)
 
-### GIt 提交：
+### GIt 提交
 
       第一步：git init 初次使用
       （git clone 返回页面克隆代码->进行下载）
@@ -70,7 +70,11 @@
                       查看                    删除
             本地：git branch              git branch -d [name] (强制删除使用-D)
             远程：git branch -r           git push origin :heads/[name]
-                  
+
+### 回退
+
+  使用git reset --hard <commit_id>命令或者git revert <commit_id>，进行版本回退(此时本地已回退)
+  在git commit后，再次使用git push origin <分支名> --force命令
 
 ### cmd
 
