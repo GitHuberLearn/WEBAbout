@@ -4,7 +4,7 @@
  * @Author: Kenny
  * @Date: 2022-09-14 15:29:06
  * @LastEditors: ~
- * @LastEditTime: 2024-04-10 11:32:45
+ * @LastEditTime: 2024-04-10 11:34:13
 -->
 
 # GIT
@@ -91,11 +91,26 @@
 
 ### 信息
 
-```bash 解码云集者、 GitHuberLearn
+```bash 解码云集者、 GitHuberLearn <1736406840@qq.com>
 - 全局修改
-      git config --global user.name "GitHuberLearn"
+      git config --global user.name "xx"
       git config --global user.email "1736406840@qq.com"
 - 局部修改
-      git config user.name "GitHuberLearn"
+      git config user.name "xx"
       git config user.email "1736406840@qq.com"
+
+- gitconfig配置
+- E: .gitconfig
+[user]
+ email = 默认
+ name = 默认
+
+- C: .gitconfig
+[user]
+ email = 默认
+ name = 默认
+[includeIf "gitdir:E:/A/"]
+ path = E:/A/.gitconfig
+[includeIf "gitdir:E:/B/"]
+ path = E:/B/.gitconfig
 ```
