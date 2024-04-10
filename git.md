@@ -4,7 +4,7 @@
  * @Author: Kenny
  * @Date: 2022-09-14 15:29:06
  * @LastEditors: ~
- * @LastEditTime: 2024-04-10 11:06:55
+ * @LastEditTime: 2024-04-10 11:24:19
 -->
 
 # GIT
@@ -91,9 +91,9 @@
 
 ### 信息
 
-```bash
+```bash 解码云集者 GitHuberLearn
 - 全局修改
-      git config --global user.name "解码云集者"
+      git config --global user.name "GitHuberLearn"
       git config --global user.email "1736406840@qq.com"
 - 局部修改
       git config user.name "GitHuberLearn"
