@@ -4,7 +4,7 @@
  * @Author: Kenny
  * @Date: 2022-09-14 15:29:06
  * @LastEditors: ~
- * @LastEditTime: 2024-08-13 11:38:42
+ * @LastEditTime: 2024-08-14 09:25:42
 -->
 # 综合大屏后台管理系统 2022-09-14 - 至今
 
@@ -87,7 +87,9 @@ npm run lint -- --fix
 ### 项目(bus)明细
 
 ```bash
-- 配置项：
+⭐ 分支日期规范
+- master：启动 ~ 验收 ~ 维护（即结尾也是创建分支日期）
+⭐ 配置项：
 - 示例图片：NULL_BG（默认无背景）
 - 统计/广告：TYPE_TEMPLATE
 - 每变更当下会备份一个分支
@@ -194,12 +196,12 @@ master_devXX（开发版本:2023-12-06 开发测试-子分支层级系统-开发
 master（最终版本:2022-09-14）
 - master1.0 2023-12-04
 ⭐ 保留完整旧代码版本
-- master2.0 2024-08-06
+- master2.0 2024-08-14
 ⭐ 集成分支master_devTR
 ⭐ 由于master_devCR进入DEV未进入Por，如果master_devCR最新舍弃，后期会根据master重构master_devCR
-⭐ 公交改版
-- master3.0 2024-xx-xx
-⭐ 公交改版
+⭐ 公交改版：master_TR3.0
+- master3.0 2024-08-06 ~ 2024-08-14 ~ 2024-xx-xx
+⭐ 公交改版：master_TR4.0
 # 版本继承
 master_dev（开发版本:2024-05-22）
 # 说明
@@ -234,18 +236,18 @@ master_CR4.0 2023-11-28
 
 ```bash
 # 开发版本
-master_devTR 2024-08-09 (ING)
+master_devTR 2024-05-22 (DONE)
 # 分支
 master_TR1.0 2023-05-09
 master_TR2.0 2023-12-04
 master_TR2.1 2023-12-06
 - 三维立体、水滴版本，未审核
-master_TR3.0 2024-08-06
+master_TR3.0 2024-05-13
 - 按照master_TR2.0修改
 - 修改左上：添加驾驶员情绪监测模块
 - 修改中上：添加今日出车驾驶员健康监测提醒模块
 - 添加后台管理线路管理模块
-master_TR4.0 2024-xx-xx
+master_TR4.0 2024-08-06 ~ 2024-08-14 ~ 2024-xx-xx
 - 合并master_devTRBS 2024-07-22:后台添加搜索选项
 - 移除master_devTRBS分支
 - 修改右上中：添加驾驶员活力值分析模块
