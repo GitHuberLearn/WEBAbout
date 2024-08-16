@@ -4,7 +4,7 @@
  * @Author: Kenny
  * @Date: 2022-09-14 15:29:06
  * @LastEditors: ~
- * @LastEditTime: 2024-08-14 09:25:42
+ * @LastEditTime: 2024-08-16 09:05:19
 -->
 # 综合大屏后台管理系统 2022-09-14 - 至今
 
@@ -137,13 +137,13 @@ master_devXX（开发版本:2023-12-06 开发测试-子分支层级系统-开发
 ⭐空数据默认存在背景
 ```
 
-###### 2.2AssistanceCommunity（2024-07-19）: 三助社区
+##### 2.2AssistanceCommunity（2024-07-19）: 三助社区
 
 ```bash
 # 总控
 - master_AC (2024-07-19)
 * 来源：master_CCO
-- master_devAC (2024-07-19) IMG
+- master_devAC (2024-07-19) Done-Mock
 # 版本
 - master_AC1.0 2024-07-24
 * 集万家之所长
@@ -168,6 +168,10 @@ master_devXX（开发版本:2023-12-06 开发测试-子分支层级系统-开发
 + 样式统一化处理
 - master_AC1.4 2024-07-xx
 + 样式优化
++ 优化tableMixin
+- master_AC2.0 2024-08-14 ~ 2024-08-16 ~  2024-xx-xx
++ 项目迭代
++ 创建mock default独立创建
 ```
 
 ##### 3.Sinopec（2024-08-12）: 中石化
@@ -354,6 +358,9 @@ api({params  }).then((res) => {
       this.$message.error(err.message);
       console.error(err);
 });
+this.$nextTick(() => {});
+//tool
+ {{ $utils.toDateString(date) }}
 //mock
 let arr = [];
 res.data.forEach((element,index) => {
@@ -362,7 +369,6 @@ res.data.forEach((element,index) => {
       });
 });
 console.log(arr);
-this.$nextTick(() => {});
 ```
 
 ### 交流
