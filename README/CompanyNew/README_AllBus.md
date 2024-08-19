@@ -4,7 +4,7 @@
  * @Author: Kenny
  * @Date: 2022-09-14 15:29:06
  * @LastEditors: ~
- * @LastEditTime: 2024-08-19 09:04:15
+ * @LastEditTime: 2024-08-19 09:06:46
 -->
 # 综合大屏后台管理系统 2022-09-14 - 至今
 
@@ -195,8 +195,8 @@ master_devXX（开发版本:2023-12-06 开发测试-子分支层级系统-开发
 * 来源：master_AC
 - master_devTRN (2024-08-17) IMG_DOM
 # 版本
-- master_SC1.0 2024-08-17 ~ 2024-xx-xx ~ 2024-xx-xx
-+ ...
+- master_TRN1.0 2024-08-17 ~ 2024-xx-xx ~ 2024-xx-xx
++ 大屏模块修改
 ```
 
 #### master（master_dev）:线上（测试）2022-09-14 ~ 2024-05-22
