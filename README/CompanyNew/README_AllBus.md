@@ -4,7 +4,7 @@
  * @Author: Kenny
  * @Date: 2022-09-14 15:29:06
  * @LastEditors: ~
- * @LastEditTime: 2024-08-20 13:36:46
+ * @LastEditTime: 2024-08-20 17:13:20
 -->
 # 综合大屏后台管理系统 2022-09-14 - 至今
 
@@ -184,8 +184,11 @@ master_devXX（开发版本:2023-12-06 开发测试-子分支层级系统-开发
 * 来源：master_AC
 - master_devSC (2024-08-12) IMG_DOM
 # 版本
-- master_SC1.0 2024-08-xx
-+ ...
+- master_SC1.0 2024-08-15 ~ 2024-08-16 ~ 2024-08-19
++ 备注优化TimeUtilMore
+- master_SC1.1 2024-08-19 ~ 2024-08-20 ~ 2024-08-xx
++ 改版
++ Mock模块开发
 ```
 
 ##### 4.TransitNew（2024-08-17）: 公交类
