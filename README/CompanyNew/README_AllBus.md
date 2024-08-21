@@ -4,7 +4,7 @@
  * @Author: Kenny
  * @Date: 2022-09-14 15:29:06
  * @LastEditors: ~
- * @LastEditTime: 2024-08-21 10:38:44
+ * @LastEditTime: 2024-08-21 10:58:29
 -->
 # 综合大屏后台管理系统 2022-09-14 - 至今
 
@@ -112,7 +112,8 @@ master_devXX（开发版本:2023-12-06 开发测试-子分支层级系统-开发
 ##### 1.Hospital（2023-12-06）: /indexDashboardHospital：医院
 
 ```bash
-- master_HO 2023-12-06
+# 总控
+- master_HO (2023-12-06) Done
 ```
 
 ##### 2.Community（2023-12-21）: 社区
@@ -120,7 +121,7 @@ master_devXX（开发版本:2023-12-06 开发测试-子分支层级系统-开发
 ```bash
 # 总控
 - master_CO (2023-12-21)
-- master_devCO (2024-05-07)
+- master_devCO (2024-05-07) Done
 # 版本
 - master_CO1.0 2024-01-02
 - master_CO2.0 2024-05-07
@@ -131,7 +132,7 @@ master_devXX（开发版本:2023-12-06 开发测试-子分支层级系统-开发
 ```bash
 # 总控
 - master_CCO (2024-05-10)
-- master_devCCO (2024-05-10) IMG
+- master_devCCO (2024-05-10) Done
 # 版本
 - master_CCO1.0 2024-05-22
 - master_CCO1.1 2024-05-27
@@ -199,7 +200,7 @@ master_devXX（开发版本:2023-12-06 开发测试-子分支层级系统-开发
 * 来源：master_AC
 - master_devTRN (2024-08-17) IMG_DOM
 # 版本
-- master_TRN1.0 2024-08-17 ~ 2024-xx-xx ~ 2024-xx-xx
+- master_TRN1.0 2024-08-17 ~ 2024-08-20 ~ 2024-xx-xx
 + 大屏模块修改
 ```
 
