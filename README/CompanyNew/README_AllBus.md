@@ -4,7 +4,7 @@
  * @Author: Kenny
  * @Date: 2022-09-14 15:29:06
  * @LastEditors: ~
- * @LastEditTime: 2024-08-22 16:43:49
+ * @LastEditTime: 2024-08-22 16:50:42
 -->
 # 综合大屏后台管理系统 2022-09-14 - 至今
 
@@ -147,16 +147,16 @@ master_devXX（开发版本:2023-12-06 开发测试-子分支层级系统-开发
 * 来源：master_CCO
 - master_devAC (2024-07-19) Done-Mock
 # 版本
-- master_AC1.0 2024-07-24
-* 集万家之所长
-* tableMarqueeSeamless优化返回值
-* 图谱Assemble组合架构优化
-- master_AC1.1 2024-07-24
-* 优化样式
-* 爱心助老服务预约优化
-- master_AC1.2 2024-07-26
-* 统一组件：Dashboard
-* 样式优化
+* master_AC1.0 2024-07-24
++ 集万家之所长
++ tableMarqueeSeamless优化返回值
++ 图谱Assemble组合架构优化
+* master_AC1.1 2024-07-24
++ 优化样式
++ 爱心助老服务预约优化
+* master_AC1.2 2024-07-26
++ 统一组件：Dashboard
++ 样式优化
 + 集成toolStyle统一经销商后台
 + 通用型弹框样式优化
 + 添加关闭滚动样式
@@ -171,7 +171,7 @@ master_devXX（开发版本:2023-12-06 开发测试-子分支层级系统-开发
 - master_AC1.4 2024-07-xx
 + 样式优化
 + 优化tableMixin
-- master_AC2.0 2024-08-14 ~ 2024-08-16 ~  2024-xx-xx
+* master_AC2.0 2024-08-14 ~ 2024-08-16 ~  2024-xx-xx
 + 项目迭代
 + 创建mock default独立创建
 + 一键处理说明措施
