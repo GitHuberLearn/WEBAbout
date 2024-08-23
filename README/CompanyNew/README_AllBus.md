@@ -4,7 +4,7 @@
  * @Author: Kenny
  * @Date: 2022-09-14 15:29:06
  * @LastEditors: ~
- * @LastEditTime: 2024-08-23 08:51:32
+ * @LastEditTime: 2024-08-23 17:54:52
 -->
 # 综合大屏后台管理系统 2022-09-14 - 至今
 
@@ -200,11 +200,13 @@ master_devXX（开发版本:2023-12-06 开发测试-子分支层级系统-开发
 ```bash
 # 总控
 - master_TRN (2024-08-19)
-* 来源：master_AC
-- master_devTRN (2024-08-17) IMG_DOM
+* 来源：master_TR4.0
+- master_devTRN (2024-08-17) IMG
 # 版本
-- master_TRN1.0 2024-08-17 ~ 2024-08-20 ~ 2024-xx-xx
+- master_TRN1.0 2024-08-17 ~ 2024-08-20
 + 大屏模块修改
+- master_TRN1.1 2024-08-22 ~ 2024-xx-xx
++ 移除多余模块
 ```
 
 #### master（master_dev）:线上（测试）2022-09-14 ~ 2024-08-14
@@ -271,14 +273,13 @@ master_TR3.0 2024-05-13
 - 修改中上：添加今日出车驾驶员健康监测提醒模块
 - 添加后台管理线路管理模块
 master_TR4.0 2024-08-06 ~ 2024-08-14
+- 衍生：master_TRN
 - 合并master_devTRBS 2024-07-22:后台添加搜索选项
 - 移除master_devTRBS分支
 - 修改右上中：添加驾驶员活力值分析模块
 - 修改详情：添加驾驶员活力值分析模块
 - 修改后台管理系统：疲劳分心睡眠监测》活力分心睡眠监测
 - 优化tableMixin
-master_TR4.1
-- 移至master_TRN
 # 其他
 master_TRHN: (海南)2023-05-08
 ```
