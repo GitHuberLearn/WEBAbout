@@ -90,10 +90,13 @@ npm run lint -- --fix
 ```bash
 ⭐ 分支日期规范
 - master：启动 ~ 验收 (~ 维护)（即结尾也是创建分支日期）
-⭐ 配置项：
+⭐ 配置项
 - 示例图片：NULL_BG（默认无背景）
 - 统计/广告：TYPE_TEMPLATE
 - 每变更当下会备份一个分支
+⭐ 状态说明
+- IMG：属于进行中，未合并到master
+- DONE:完成状态，已经合并到master
 ```
 
 #### master_XX（master_devXX）:线上（测试） 2023-12-06 ~ 2024-08-20
@@ -230,8 +233,6 @@ master_dev（开发版本:2024-05-22）
 - master作为未独立出项目的整合版本的最终版，防止之前地址变化，一般的master_dev作为测试开发版本，完毕后合并到master，多项目开发分支master_devXX（衍生于master）开发完毕，合并到master_dev测试上线，再合并到master作为最终版,除公交（暂定一个项目备用方便复用）其他不留多余备用代码文件，备用文件在分支（master_XXn.0）代码保存，
 - master2.0之前作为完整版本，后期分支，在上面基础上，不保存多余过去旧代码
 - XX：代表loginXX中的XX，注意和未来计划的分支独立项目master_XX区别，本master_XXn.0没有master_XX分支,但是有master_devXX分支，master_devXX分支就以下项目，其实作为统筹分支合并于master_dev，最终合并于master
-- IMG：属于进行中，未合并到master
-- DONE:完成状态，已经合并到master
 ```
 
 ##### 1.dashboard: /indexDashboard: 养老 -> login
