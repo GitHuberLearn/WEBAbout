@@ -4,7 +4,7 @@
  * @Author: Kenny
  * @Date: 2022-09-14 15:29:06
  * @LastEditors: ~
- * @LastEditTime: 2024-08-22 16:50:42
+ * @LastEditTime: 2024-08-23 08:51:32
 -->
 # 综合大屏后台管理系统 2022-09-14 - 至今
 
@@ -89,7 +89,7 @@ npm run lint -- --fix
 
 ```bash
 ⭐ 分支日期规范
-- master：启动 ~ 验收 (~ 维护)（即结尾也是创建分支日期）
+- master：启动 ~ 验收 (~ 维护)（即维护结尾也是创建下一个分支日期）
 ⭐ 配置项
 - 示例图片：NULL_BG（默认无背景）
 - 统计/广告：TYPE_TEMPLATE
