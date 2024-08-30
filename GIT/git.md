@@ -4,7 +4,7 @@
  * @Author: Kenny
  * @Date: 2022-09-14 15:29:06
  * @LastEditors: ~
- * @LastEditTime: 2024-04-10 11:34:13
+ * @LastEditTime: 2024-08-30 09:40:13
 -->
 
 # GIT
@@ -74,7 +74,7 @@
 ### 回退
 
   使用git reset --hard <commit_id>命令或者git revert <commit_id>，进行版本回退(此时本地已回退)
-  在git commit后，再次使用git push origin <分支名> --force命令
+  在git commit -m '注释'后，再次使用git push origin <分支名> --force命令
 
 ### cmd
 
