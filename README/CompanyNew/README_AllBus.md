@@ -4,7 +4,7 @@
  * @Author: Kenny
  * @Date: 2022-09-14 15:29:06
  * @LastEditors: ~
- * @LastEditTime: 2024-08-23 17:54:52
+ * @LastEditTime: 2024-08-30 11:21:09
 -->
 # 综合大屏后台管理系统 2022-09-14 - 至今
 
@@ -200,12 +200,14 @@ master_devXX（开发版本:2023-12-06 开发测试-子分支层级系统-开发
 ```bash
 # 总控
 - master_TRN (2024-08-19)
-* 来源：master_TR4.0
-- master_devTRN (2024-08-17) IMG
+* 来源：master_AC
+- master_devTRN (2024-08-17) IMG_DOM
 # 版本
 - master_TRN1.0 2024-08-17 ~ 2024-08-20
 + 大屏模块修改
-- master_TRN1.1 2024-08-22 ~ 2024-xx-xx
+- master_TRN1.1 2024-08-22 ~ 2024-08-22
++ 添加公司
+- master_TRN1.2 2024-08-23 ~ 2024-xx-xx
 + 移除多余模块
 ```
 
@@ -369,16 +371,17 @@ this.$message.info('提示！')
 this.$message.warning('提醒！')
 this.$message.error('操作失败！')
 //api
+this.loading = true;
 api({params  }).then((res) => {
       if (res.data === 1) {
-      this.$message.success("xx！");
+            this.$message.success("xx！");
       } else if (res.code === 1) {
-      this.$message.warning(res.msg);
+            this.$message.warning(res.msg);
       }
 })
 .catch((err) => {
-      this.$message.error(err.message);
-      console.error(err);
+      //api已经处理不需要 console.error(err); this.$message.error(err.message);
+      this.loading = false;
 });
 this.$nextTick(() => {});
 //tool
