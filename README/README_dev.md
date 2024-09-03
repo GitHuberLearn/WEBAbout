@@ -88,10 +88,11 @@ x
 ### 项目(xx)明细 xx1-xx-xx ~
 
 ```bash
-# 控制版本
-- master（xx-dev）
+# 总控
+- master（xx-dev）：xx
 - master-dev：xx1-xx-xx
-- eg: masterx.0：2024-xx-xx (xx)
+# 版本
+- eg: masterx.0：2024-xx-xx ~ 2024-xx-xx (xx)
 ```
 
 ## 技术支持
