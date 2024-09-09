@@ -4,7 +4,7 @@
  * @Author: Kenny
  * @Date: xx1-xx-xx 10:07:00
  * @LastEditors: ~
- * @LastEditTime: 2024-05-30 10:32:16
+ * @LastEditTime: 2024-09-09 11:23:37
 -->
 # xx xx1-xx-xx - xxxx-xx-xx
 
@@ -90,9 +90,11 @@ x
 ```bash
 # 总控
 - master（xx-dev）：xx
-- master-dev：xx1-xx-xx
+* 来源：xx
 # 版本
-- eg: masterx.0：2024-xx-xx ~ 2024-xx-xx (xx)
+- eg: masterx.0：xx-xx-xx ~ xx-xx-xx (原始篇)
+- eg: masterx.1：xx-xx-xx ~ xx-xx-xx (发版篇)
+- eg: masterx.2：xx-xx-xx ~ xx-xx-xx (维护篇)
 ```
 
 ## 技术支持
@@ -102,6 +104,7 @@ x
 ```bash
 - 基于 xxx "^xx"
 - 含有  DISCARD\AMore文件 标志即将废弃内容,禁止调用里面内容
+- 一般的：x.0(原始篇)，x.1(发版篇)，x.2 (维护篇)
 ```
 
 ### 相关Code
