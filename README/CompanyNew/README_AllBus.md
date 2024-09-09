@@ -4,7 +4,7 @@
  * @Author: Kenny
  * @Date: 2022-09-14 15:29:06
  * @LastEditors: ~
- * @LastEditTime: 2024-08-30 11:21:09
+ * @LastEditTime: 2024-09-09 11:18:17
 -->
 # 综合大屏后台管理系统 2022-09-14 - 至今
 
@@ -142,7 +142,7 @@ master_devXX（开发版本:2023-12-06 开发测试-子分支层级系统-开发
 ⭐空数据默认存在背景
 ```
 
-###### 2.2AssistanceCommunity（2024-07-19）: 三助社区
+##### 2.2AssistanceCommunity（2024-07-19）: 三助社区
 
 ```bash
 # 总控
@@ -150,14 +150,14 @@ master_devXX（开发版本:2023-12-06 开发测试-子分支层级系统-开发
 * 来源：master_CCO
 - master_devAC (2024-07-19) Done-Mock
 # 版本
-* master_AC1.0 2024-07-24
+* master_AC1.0 2024-07-24 ~ 2024-08-24
 + 集万家之所长
 + tableMarqueeSeamless优化返回值
 + 图谱Assemble组合架构优化
-* master_AC1.1 2024-07-24
+* master_AC1.1 2024-07-24 ~ 2024-08-25
 + 优化样式
 + 爱心助老服务预约优化
-* master_AC1.2 2024-07-26
+* master_AC1.2 2024-07-26 ~ 2024-08-29
 + 统一组件：Dashboard
 + 样式优化
 + 集成toolStyle统一经销商后台
@@ -167,17 +167,18 @@ master_devXX（开发版本:2023-12-06 开发测试-子分支层级系统-开发
 + 处理登录界面
 + 表单、大屏表单禁止状态优化
 + API初步优化
-- master_AC1.3 2024-07-30
+* master_AC1.3 2024-07-30 ~ 2024-08-13
 + 自适应兼容样式优化
 + 处理关闭滚动样式bug
 + 样式统一化处理
-- master_AC1.4 2024-07-xx
-+ 样式优化
+* master_AC2.0 2024-08-14 ~ 2024-09-08
 + 优化tableMixin
-* master_AC2.0 2024-08-14 ~ 2024-08-16 ~  2024-xx-xx
 + 项目迭代
 + 创建mock default独立创建
 + 一键处理说明措施
++ 独立统一集成
+* master_SC2.1 2024-09-09 ~ 2024-xx-xxx
++ 统一化样式styles：*toolStyle、index-dashboard-module、common
 ```
 
 ##### 3.Sinopec（2024-08-12）: 中石化
@@ -188,11 +189,14 @@ master_devXX（开发版本:2023-12-06 开发测试-子分支层级系统-开发
 * 来源：master_AC
 - master_devSC (2024-08-12) Done-Mock
 # 版本
-- master_SC1.0 2024-08-15 ~ 2024-08-16 ~ 2024-08-19
+- master_SC1.0 2024-08-15 ~ 2024-08-16
 + 备注优化TimeUtilMore
-- master_SC1.1 2024-08-19 ~ 2024-08-20 ~ 2024-08-xx
+- master_SC1.1 2024-08-19 ~ 2024-08-20
 + 改版
 + Mock模块开发
++ 集成统一化处理
+- master_SC1.2 2024-08-21 ~ 2024-xx-xxx
++ 统一化样式styles：*toolStyle、index-dashboard-module、common
 ```
 
 ##### 4.TransitNew（2024-08-17）: 公交类
@@ -207,8 +211,11 @@ master_devXX（开发版本:2023-12-06 开发测试-子分支层级系统-开发
 + 大屏模块修改
 - master_TRN1.1 2024-08-22 ~ 2024-08-22
 + 添加公司
-- master_TRN1.2 2024-08-23 ~ 2024-xx-xx
+- master_TRN1.2 2024-08-23 ~ 2024-09-08
 + 移除多余模块
++ 集成单项目框架
+- master_TRN1.3 2024-09-09 ~ 2024-xx-xx
++ 统一化样式styles：*toolStyle、index-dashboard-module、common
 ```
 
 #### master（master_dev）:线上（测试）2022-09-14 ~ 2024-08-14
