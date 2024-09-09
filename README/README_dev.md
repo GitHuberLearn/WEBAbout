@@ -2,11 +2,11 @@
  * @Descripttion: Sustainable
  * @version: 1.0.0
  * @Author: Kenny
- * @Date: xx1-xx-xx 10:07:00
+ * @Date: 20xx-xx-xx 10:07:00
  * @LastEditors: ~
- * @LastEditTime: 2024-09-09 11:23:37
+ * @LastEditTime: 2024-09-09 11:29:47
 -->
-# xx xx1-xx-xx - xxxx-xx-xx
+# xx 20xx-xx-xx - xx20xx-xx-xx
 
 ```bash
 - 生产：x
@@ -83,18 +83,18 @@ x
 - * x
 ```
 
-## 项目里程碑 xx1-xx-xx ~
+## 项目里程碑 20xx-xx-xx ~
 
-### 项目(xx)明细 xx1-xx-xx ~
+### 项目(xx)明细 20xx-xx-xx ~
 
 ```bash
 # 总控
-- master（xx-dev）：xx
+- master（xx-dev）：20xx-xx-xx
 * 来源：xx
 # 版本
-- eg: masterx.0：xx-xx-xx ~ xx-xx-xx (原始篇)
-- eg: masterx.1：xx-xx-xx ~ xx-xx-xx (发版篇)
-- eg: masterx.2：xx-xx-xx ~ xx-xx-xx (维护篇)
+- eg: masterx.0：20xx-xx-xx ~ 20xx-xx-xx (原始篇)
+- eg: masterx.1：20xx-xx-xx ~ 20xx-xx-xx (发版篇)
+- eg: masterx.2：20xx-xx-xx ~ 20xx-xx-xx (维护篇)
 ```
 
 ## 技术支持
