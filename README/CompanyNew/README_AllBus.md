@@ -4,7 +4,7 @@
  * @Author: Kenny
  * @Date: 2022-09-14 15:29:06
  * @LastEditors: ~
- * @LastEditTime: 2024-09-09 11:18:17
+ * @LastEditTime: 2024-09-13 14:54:33
 -->
 # 综合大屏后台管理系统 2022-09-14 - 至今
 
@@ -323,11 +323,14 @@ master_TRHN: (海南)2023-05-08
 ## 技术支持
 
 ```bash
-- 基于 node "^16.20.2"
+- 基于 node:v18.20.0
+- 基于 vue:^2.7.16
 - 含有  DISCARD\AMore文件 标志即将废弃内容,禁止调用里面内容
 - More: 备份文件,不会移除
-- 备注MOCK是MOCK文件
+- MOCK：MOCK文件
 - control：控制集成文件
+- 一般的：x.0(原始篇)，x.1(发版篇)，x.2 (维护篇)
+- 本项目scss不支持相对路径，需要vue.config-configureWebpack自定义alias
 ```
 
 ### 相关Code
