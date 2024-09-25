@@ -4,7 +4,7 @@
  * @Author: Kenny
  * @Date: 2022-09-14 15:29:06
  * @LastEditors: ~
- * @LastEditTime: 2024-09-13 14:54:33
+ * @LastEditTime: 2024-09-25 11:56:21
 -->
 # 综合大屏后台管理系统 2022-09-14 - 至今
 
@@ -95,8 +95,9 @@ npm run lint -- --fix
 - 统计/广告：TYPE_TEMPLATE
 - 每变更当下会备份一个分支
 ⭐ 状态说明
-- IMG：属于进行中，未合并到master
-- DONE:完成状态，已经合并到master
+- ING：属于进行中，未合并到master
+- DONE：完成状态，已经合并到master
+- DONEMOCK：完成状态，仅是模拟数据
 ```
 
 #### master_XX（master_devXX）:线上（测试） 2023-12-06 ~ 2024-08-20
@@ -112,43 +113,43 @@ master_devXX（开发版本:2023-12-06 开发测试-子分支层级系统-开发
 - 说明：项目版本模本化管理，各个项目独立存在，根据项目需求使用类似项目master分支建立master_XX（衍生分支master_XXn.0备用）部署，master_devXX具体开发与测试，进行单项目模块化管理，省去合并管理冲突与管理代码失控的风险
 ```
 
-##### 1.Hospital（2023-12-06）: /indexDashboardHospital：医院
+##### 1. Hospital（2023-12-06）: /indexDashboardHospital：医院
 
 ```bash
 # 总控
-- master_HO (2023-12-06) Done
+- master_HO (2023-12-06) DONE
 ```
 
-##### 2.Community（2023-12-21）: 社区
+##### 2. Community（2023-12-21）: 社区
 
 ```bash
 # 总控
 - master_CO (2023-12-21)
-- master_devCO (2024-05-07) Done
+- master_devCO (2024-05-07) DONE
 # 版本
 - master_CO1.0 2024-01-02
 - master_CO2.0 2024-05-07
 ```
 
-###### 2.1CityCommunity（2024-05-10）: 市区社区（西安）
+###### 2.1 CityCommunity（2024-05-10）: 市区社区（西安）
 
 ```bash
 # 总控
 - master_CCO (2024-05-10)
-- master_devCCO (2024-05-10) Done
+- master_devCCO (2024-05-10) DONE
 # 版本
 - master_CCO1.0 2024-05-22
 - master_CCO1.1 2024-05-27
 ⭐空数据默认存在背景
 ```
 
-##### 2.2AssistanceCommunity（2024-07-19）: 三助社区
+###### 2.2 AssistanceCommunity（2024-07-19）: 三助社区(New)
 
 ```bash
 # 总控
 - master_AC (2024-07-19)
 * 来源：master_CCO
-- master_devAC (2024-07-19) Done-Mock
+- master_devAC (2024-07-19) DONEMOCK
 # 版本
 * master_AC1.0 2024-07-24 ~ 2024-08-24
 + 集万家之所长
@@ -181,13 +182,25 @@ master_devXX（开发版本:2023-12-06 开发测试-子分支层级系统-开发
 + 统一化样式styles：*toolStyle、index-dashboard-module、common
 ```
 
-##### 3.Sinopec（2024-08-12）: 中石化
+###### 2.3 OtherCommunity（2024-09-24）: 其他社区
+
+```bash
+# 总控
+- master_OC (2024-09-24)
+* 来源：master_CCO
+- master_devOC (2024-09-24) Doing
+# 版本
+* master_OC1.0 2024-09-24 ~ 2024-xx-xx
+- xx
+```
+
+##### 3. Sinopec（2024-08-12）: 中石化
 
 ```bash
 # 总控
 - master_SC (2024-08-12)
 * 来源：master_AC
-- master_devSC (2024-08-12) Done-Mock
+- master_devSC (2024-08-12) DONEMOCK
 # 版本
 - master_SC1.0 2024-08-15 ~ 2024-08-16
 + 备注优化TimeUtilMore
@@ -199,13 +212,13 @@ master_devXX（开发版本:2023-12-06 开发测试-子分支层级系统-开发
 + 统一化样式styles：*toolStyle、index-dashboard-module、common
 ```
 
-##### 4.TransitNew（2024-08-17）: 公交类
+##### 4. TransitNew（2024-08-17）: 公交类
 
 ```bash
 # 总控
 - master_TRN (2024-08-19)
 * 来源：master_AC
-- master_devTRN (2024-08-17) IMG_DOM
+- master_devTRN (2024-08-17) DONEMOCK
 # 版本
 - master_TRN1.0 2024-08-17 ~ 2024-08-20
 + 大屏模块修改
@@ -246,19 +259,19 @@ master_dev（开发版本:2024-05-22）
 - XX：代表loginXX中的XX，注意和未来计划的分支独立项目master_XX区别，本master_XXn.0没有master_XX分支,但是有master_devXX分支，master_devXX分支就以下项目，其实作为统筹分支合并于master_dev，最终合并于master
 ```
 
-##### 1.dashboard: /indexDashboard: 养老 -> login
+##### 1. dashboard: /indexDashboard: 养老 -> login
 
-##### 2.MTreatment: /indexDashboardMTreatment：中西医 -> loginMT
+##### 2. MTreatment: /indexDashboardMTreatment：中西医 -> loginMT
 
 ```bash
 - master_MT1.0 2023-03-23（无锡）
 ```
 
-##### 3.Creation:/indexDashboardCreation：融创医养 -> loginCR
+##### 3. Creation:/indexDashboardCreation：融创医养 -> loginCR
 
 ```bash
 # 开发版本
-master_devCR 2023-12-06 (IMG)
+master_devCR 2023-12-06 (ING)
 # 分支
 master_CR1.0 2023-03-01
 master_CR2.0 2023-10-08
@@ -266,7 +279,7 @@ master_CR3.0 2023-11-16
 master_CR4.0 2023-11-28
 ```
 
-##### 4.Transit: /indexDashboardTransit：公交 -> loginTR、loginTRAdmin（含设备列表）
+##### 4. Transit: /indexDashboardTransit：公交 -> loginTR、loginTRAdmin（含设备列表）
 
 ```bash
 # 开发版本
@@ -309,9 +322,9 @@ master_TRHN: (海南)2023-05-08
 - online_provide（online_provideyk）: 地图/广告/空示例图片
 ```
 
-##### 5.OnlineCar: /indexDashboardOnlineCar：网约车 -> loginOC
+##### 5. OnlineCar: /indexDashboardOnlineCar：网约车 -> loginOC
 
-##### 6.Minerals: /indexDashboardMinerals：矿山 -> loginMI
+##### 6. Minerals: /indexDashboardMinerals：矿山 -> loginMI
 
 ```bash
 - master_MI1.0 2023-07-17
