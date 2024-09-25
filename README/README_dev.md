@@ -4,7 +4,7 @@
  * @Author: Kenny
  * @Date: 20xx-xx-xx 10:07:00
  * @LastEditors: ~
- * @LastEditTime: 2024-09-12 09:46:59
+ * @LastEditTime: 2024-09-25 11:55:51
 -->
 # xx 20xx-xx-xx - xx20xx-xx-xx
 
@@ -96,6 +96,10 @@ x
 * xx
 - eg: masterx.1：20xx-xx-xx ~ 20xx-xx-xx (发版篇)
 - eg: masterx.2：20xx-xx-xx ~ 20xx-xx-xx (维护篇)
+⭐ 状态说明
+- ING：属于进行中，未合并到master
+- DONE：完成状态，已经合并到master
+- DONEMOCK：完成状态，仅是模拟数据
 ```
 
 ## 技术支持
