@@ -4,7 +4,7 @@
  * @Author: Kenny
  * @Date: 2022-09-14 15:29:06
  * @LastEditors: ~
- * @LastEditTime: 2024-09-25 11:56:21
+ * @LastEditTime: 2024-11-29 15:08:41
 -->
 # 综合大屏后台管理系统 2022-09-14 - 至今
 
@@ -188,10 +188,22 @@ master_devXX（开发版本:2023-12-06 开发测试-子分支层级系统-开发
 # 总控
 - master_OC (2024-09-24)
 * 来源：master_CCO
-- master_devOC (2024-09-24) Doing
+- master_devOC (2024-09-24) DONE
 # 版本
-* master_OC1.0 2024-09-24 ~ 2024-xx-xx
-- xx
+* master_OC1.0 2024-09-24 ~ 2024-09-24
+- 基础版本
+* master_OC1.1 2024-09-24 ~ 2024-09-24
+- 模块重组改造
+- 营养运动评估/心理评估重组
+- 风险预估/睡眠监测重组
+- 当日预约/疲劳分析重组
+- 心脑肺肾肝功能评估界面重组与后台开发
+* master_OC1.1.1 2024-09-25 ~ 2024-09-25
+- 模块重组改造
+* master_OC1.1.2 2024-09-26 ~ 2024-xx-xx
+- 添加自动逻辑getNextArray
+- AhartSliderService：tableMarqueeSeamless滚动样式处理优化
+- 性能优化
 ```
 
 ##### 3. Sinopec（2024-08-12）: 中石化
@@ -283,7 +295,7 @@ master_CR4.0 2023-11-28
 
 ```bash
 # 开发版本
-master_devTR 2024-05-22 (DONE)
+master_devTR (2024-05-22) DONE
 # 分支
 master_TR1.0 2023-05-09
 master_TR2.0 2023-12-04
@@ -343,6 +355,7 @@ master_TRHN: (海南)2023-05-08
 - MOCK：MOCK文件
 - control：控制集成文件
 - 一般的：x.0(原始篇)，x.1(发版篇)，x.2 (维护篇)
+- 新迭代项目需要进行备份分支x.x.1
 - 本项目scss不支持相对路径，需要vue.config-configureWebpack自定义alias
 ```
 
