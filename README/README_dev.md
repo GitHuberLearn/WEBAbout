@@ -4,7 +4,7 @@
  * @Author: Kenny
  * @Date: 20xx-xx-xx 10:07:00
  * @LastEditors: ~
- * @LastEditTime: 2024-09-25 11:55:51
+ * @LastEditTime: 2024-11-29 15:11:41
 -->
 # xx 20xx-xx-xx - xx20xx-xx-xx
 
@@ -110,6 +110,7 @@ x
 - 基于 xxx "^xx"
 - 含有  DISCARD\AMore文件 标志即将废弃内容,禁止调用里面内容
 - 一般的：x.0(原始篇)，x.1(发版篇)，x.2 (维护篇)
+- 新迭代项目需要进行备份分支x.x.1
 ```
 
 ### 相关Code
