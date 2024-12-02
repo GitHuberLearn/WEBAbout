@@ -4,7 +4,7 @@
  * @Author: Kenny
  * @Date: 2022-09-14 15:29:06
  * @LastEditors: ~
- * @LastEditTime: 2024-11-29 15:08:41
+ * @LastEditTime: 2024-12-02 16:56:19
 -->
 # 综合大屏后台管理系统 2022-09-14 - 至今
 
@@ -335,6 +335,10 @@ master_TRHN: (海南)2023-05-08
 ```
 
 ##### 5. OnlineCar: /indexDashboardOnlineCar：网约车 -> loginOC
+
+```bash
+- 2023-08-10
+```
 
 ##### 6. Minerals: /indexDashboardMinerals：矿山 -> loginMI
 
