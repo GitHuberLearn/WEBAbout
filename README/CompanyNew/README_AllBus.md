@@ -4,7 +4,7 @@
  * @Author: Kenny
  * @Date: 2022-09-14 15:29:06
  * @LastEditors: ~
- * @LastEditTime: 2024-12-02 16:56:19
+ * @LastEditTime: 2024-12-05 14:31:50
 -->
 # 综合大屏后台管理系统 2022-09-14 - 至今
 
@@ -98,6 +98,7 @@ npm run lint -- --fix
 - ING：属于进行中，未合并到master
 - DONE：完成状态，已经合并到master
 - DONEMOCK：完成状态，仅是模拟数据
+- PAUSE：暂停状态
 ```
 
 #### master_XX（master_devXX）:线上（测试） 2023-12-06 ~ 2024-08-20
