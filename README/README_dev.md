@@ -4,7 +4,7 @@
  * @Author: Kenny
  * @Date: 20xx-xx-xx 10:07:00
  * @LastEditors: ~
- * @LastEditTime: 2024-11-29 15:11:41
+ * @LastEditTime: 2024-12-05 14:30:48
 -->
 # xx 20xx-xx-xx - xx20xx-xx-xx
 
@@ -100,6 +100,7 @@ x
 - ING：属于进行中，未合并到master
 - DONE：完成状态，已经合并到master
 - DONEMOCK：完成状态，仅是模拟数据
+- PAUSE：暂停状态
 ```
 
 ## 技术支持
