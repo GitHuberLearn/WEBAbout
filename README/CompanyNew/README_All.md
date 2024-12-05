@@ -4,13 +4,15 @@
  * @Author: Kenny
  * @Date: 2022-09-14 15:29:06
  * @LastEditors: ~
- * @LastEditTime: 2024-12-05 10:25:23
+ * @LastEditTime: 2024-12-05 10:52:15
 -->
 # 思尔项目总汇
 
 ```bash
 - 停止更新
-* 已经录制掘金笔记网：[https://juejin.cn/flash-note/favorite?note_id=7443676321291305010&from=6]
+- 思尔项目总汇
+* 已经录制语雀笔记网：<https://www.yuque.com>
+* 已经录制掘金笔记网：<https://juejin.cn/flash-note/favorite?note_id=7443676321291305010&from=6> 停更
 ```
 
 # 项目 2022.05 - 至今
