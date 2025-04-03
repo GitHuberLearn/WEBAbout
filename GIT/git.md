@@ -74,8 +74,7 @@ GIt 附加
       本地：git branch              git branch -d [name] (强制删除使用-D)
       远程：git branch -r           git push origin :heads/[name]
 
-      修改文件修改时间： touch -t 202501010000.00 dome.jpg
-
+      修改文件修改时间：touch -t 202501010000.00 dome.jpg
 ```
 
 ### 回退
