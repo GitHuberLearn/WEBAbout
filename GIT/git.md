@@ -4,7 +4,7 @@
  * @Author: Kenny
  * @Date: 2022-09-14 15:29:06
  * @LastEditors: ~
- * @LastEditTime: 2025-04-03 15:43:08
+ * @LastEditTime: 2025-04-08 11:58:53
 -->
 
 # GIT
@@ -82,6 +82,15 @@ GIt 附加
 ```bash
 使用git reset --hard <commit_id>命令或者git revert <commit_id>，进行版本回退(此时本地已回退)
 在git commit -m '注释'后，再次使用git push origin <分支名> --force命令
+```
+
+### 删除分支
+
+```bash
+- git branch -r -> git checkout [name]
+● git branch -D [name] （本地）
+● git push origin :heads/[name]（线上）
+● Q退出、clear
 ```
 
 ### cmd
