@@ -4,24 +4,24 @@
  * @Author: Kenny
  * @Date: 2025-04-30 15:42:29
  * @LastEditors: ~
- * @LastEditTime: 2025-04-30 15:42:54
+ * @LastEditTime: 2025-05-07 18:18:58
 -->
-
 # 通用型工具包：三控件（具体见模块化开发标准）
 
 ```bash
 （合作项目 bus_*AC/SC/TRN,Dealer,seerAdmin,Datacenter）
 ◆ styles：*toolStyle、common、index-dashboard-module (variables）
-◆ mixins：*tableMixin【tableMixinDome_Upload】
+◆ mixins：*tableMixin【tableMixinDome_Upload】,Upload
 ◆ utils：*index
 【update】
-dealer：toolStyle，tableMixin
+dealer：
+toolStyle，tableMixin，utils
 ```
 
 # 周计划
 
 ```bash
-1.0 添加在线医疗-在线问诊模块(,)
+1.0 添加在线医疗-在线问诊模块
 1.1 预约管理
 1.2 IM问诊
 1.3 问诊病例
@@ -41,22 +41,13 @@ dealer：toolStyle，tableMixin
 3.1 分包处理
 ```
 
-
-
-
-
-
-
-
-
-
-
 # 其他计划
 
 ```bash
 1.0 云界面：实现动态接口改利调息
-2.0 考卷2020下
-      整合，质量，范围，交付绩效域
+2.0 考卷2020下 changeway
+
+      ✔整合，✔质量，✔范围，交付绩效域
 
 
 
