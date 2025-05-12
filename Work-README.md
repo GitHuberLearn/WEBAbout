@@ -4,7 +4,7 @@
  * @Author: Kenny
  * @Date: 2025-04-30 15:42:29
  * @LastEditors: ~
- * @LastEditTime: 2025-05-12 11:46:51
+ * @LastEditTime: 2025-05-12 17:48:53
 -->
 # 通用型工具包：三控件（具体见模块化开发标准）
 
@@ -26,6 +26,7 @@ toolStyle，tableMixin，utils
 1.2 IM问诊
 1.3 问诊病例
 1.4 群管理二期功能
+1.4.1 解决iframe控制父集方法
 ```
 
 # 预期计划
