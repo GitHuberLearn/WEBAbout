@@ -47,6 +47,7 @@ toolStyle，tableMixin，utils
 1.4.1 分包处理
 2.0 大屏BI智能系统
 2.1 数据库配置
+3.0 版本（bash内容样式升级）
 ```
 
 # 其他计划
