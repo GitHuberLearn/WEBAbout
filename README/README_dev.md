@@ -104,7 +104,7 @@ x
 ⭐ 状态说明
 - ING：属于进行中，未合并到master
 - DONE：完成状态，已经合并到master
-- DONEMOCK：完成状态，仅是模拟数据
+- DONE-MOCK：完成状态，仅是模拟数据
 - PAUSE：暂停状态
 ```
 
