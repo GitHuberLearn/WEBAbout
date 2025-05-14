@@ -4,7 +4,7 @@
  * @Author: Kenny
  * @Date: 2025-04-30 15:42:29
  * @LastEditors: ~
- * @LastEditTime: 2025-05-14 17:34:35
+ * @LastEditTime: 2025-05-14 17:40:11
 -->
 # 通用型工具包：三控件（具体见模块化开发标准）
 
@@ -54,6 +54,7 @@ index-dashboard-module
 2.0 大屏BI智能系统
 2.1 数据库配置
 3.0 版本（bash内容样式升级）
+4.0 大屏三控件集成
 ```
 
 # 其他计划
