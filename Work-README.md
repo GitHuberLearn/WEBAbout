@@ -4,7 +4,7 @@
  * @Author: Kenny
  * @Date: 2025-04-30 15:42:29
  * @LastEditors: ~
- * @LastEditTime: 2025-05-13 12:08:18
+ * @LastEditTime: 2025-05-14 17:34:35
 -->
 # 通用型工具包：三控件（具体见模块化开发标准）
 
@@ -16,6 +16,8 @@
 【update】
 dealer：
 toolStyle，tableMixin，utils
+AC:
+index-dashboard-module
 ```
 
 # 周计划
