@@ -4,18 +4,18 @@
  * @Author: Kenny
  * @Date: 2025-04-30 15:42:29
  * @LastEditors: ~
- * @LastEditTime: 2025-05-19 15:10:44
+ * @LastEditTime: 2025-05-22 13:40:13
 -->
 # 通用型工具包：三控件（具体见模块化开发标准）
 
 ```bash
 （合作项目 bus_*AC/SC/TRN,Dealer,seerAdmin,Datacenter）
 ◆ styles：*toolStyle、common、index-dashboard-module (variables）
-◆ mixins：*tableMixin【tableMixinDome_Upload】,Upload
+◆ mixins：*tableMixin【tableMixinDome_Upload】,Upload,apiTemplate
 ◆ utils：*index
 【update】
 dealer：
-toolStyle，tableMixin，utils
+toolStyle，tableMixin(apiTemplate)，utils
 AC:
 index-dashboard-module
 ```
@@ -54,6 +54,7 @@ index-dashboard-module
 1.3.2.2 gotoChat 👉 insertSessionActive （V9指定单聊会话：https://doc.yunxin.163.com/docs/interface/messaging/web/typedoc/UIKit/Latest/zh/modules.html）
 1.3.2.3 实现跨域iframe（dealer4.1-IMChat5.2）和父窗口之间的通信
 1.3.2.4 移除结束问诊冗余模块
+1.3.2.5 添加中药处理校验问题（decoctionMethod，formulations）
 1.3.3 imConsultation:itemData冗余传值(目前只需要userId)
 
 1.4 商城模块-思尔商城小程序
