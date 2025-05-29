@@ -58,6 +58,9 @@ index-dashboard-module
 1.3.2.2 gotoChat 👉 insertSessionActive （V9指定单聊会话：https://doc.yunxin.163.com/docs/interface/messaging/web/typedoc/UIKit/Latest/zh/modules.html）
 1.3.2.3 实现跨域iframe（dealer4.1-IMChat5.2）和父窗口之间的通信
 1.3.2.4 添加中药处理校验问题（decoctionMethod，formulations）
+1.3.2.5 添加回复格式校验规则
+1.3.2.6 图片上传
+
 
 1.4 商城模块-思尔商城小程序
 1.4.1 分包处理
@@ -71,5 +74,5 @@ index-dashboard-module
 
 ```bash
 1.0 云界面：实现动态接口改利调息
-
+2.0 删除CSDN:mitmproxy代理抓包mock文件重复资源
 ```
