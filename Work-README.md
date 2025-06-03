@@ -10,14 +10,16 @@
 
 ```bash
 （合作项目 bus_*AC/SC/TRN,Dealer,seerAdmin,Datacenter）
-◆ styles：*toolStyle、common、index-dashboard-module (variables）
-◆ mixins：*tableMixin【tableMixinDome_Upload】,Upload,apiTemplate
-◆ utils：*index
+◆ styles:*toolStyle、common、index-dashboard-module (variables）
+◆ mixins:*tableMixin【tableMixinDome_Upload】,Upload,apiTemplate
+◆ utils:*index
 【update】
-dealer：
-toolStyle，tableMixin(apiTemplate)，utils
+dealer:
+toolStyle,tableMixin(apiTemplate)，utils
 AC:
 index-dashboard-module
+IMChat:
+apiTemplate
 ```
 
 # 周计划
