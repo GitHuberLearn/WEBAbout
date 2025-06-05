@@ -6,15 +6,17 @@
  * @LastEditors: ~
  * @LastEditTime: 2025-05-13 11:14:49
 -->
-# xx 20xx-xx-xx - xx20xx-xx-xx
+# xx:xx 20xx-xx-xx - xx20xx-xx-xx
 
 ```bash
+# 功能
++ x
+* ..
+# URL
 - 生产：x
 - 测试：x
 - 本地：http://localhost:xx
 - xx/xx
-
-- ...
 ```
 
 ## 项目开发
@@ -49,32 +51,26 @@ npm install
 
 ### 使用
 
-所有的接口地址位置：`src\api\path\*`
-
-接口地址修改：`.env`
-
 ```shell
+### xx 介绍
+xxx（组件名称）
+├── src 
+│   └── components
+│       └── IMApp // xx使用示例
+│   └── APP.vue // 项目入口
+
+# 所有的接口地址位置：`src\api\path\*`
+# 接口地址修改：`.env`
 # port
 VITE_DEV_PORT = 'x'
-
 # development path
 VITE_DEV_PATH = 'http://127.0.0.1:x'
-
 # production path
 VITE_PRO_PATH = 'http://127.0.0.1:x'
-```
-
-公共前缀修改：`src\settings\httpSetting.ts`
-
-```shell
-// 请求前缀
+# 公共前缀修改：`src\settings\httpSetting.ts`
+# 请求前缀
 export const axiosPre = '/api/goview'
-```
-
-接口封装：`src\api\http.ts`
-
-```ts
-x
+# 接口封装：`src\api\http.ts`
 ```
 
 ### 代码提交

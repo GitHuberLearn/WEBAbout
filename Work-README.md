@@ -4,7 +4,7 @@
  * @Author: Kenny
  * @Date: 2025-04-30 15:42:29
  * @LastEditors: ~
- * @LastEditTime: 2025-06-04 16:36:14
+ * @LastEditTime: 2025-06-05 18:08:04
 -->
 # 计划
 
@@ -74,7 +74,6 @@ apiTemplate,request.ts
 ## 其他计划
 
 ```bash
-# 云界面：实现动态接口改利调息
-## 放款
+# 云界面：实现动态接口fox改利调息
 # 二建考试
 ```
