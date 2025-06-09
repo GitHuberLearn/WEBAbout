@@ -4,7 +4,7 @@
  * @Author: Kenny
  * @Date: 20xx-xx-xx 10:07:00
  * @LastEditors: ~
- * @LastEditTime: 2025-05-13 11:14:49
+ * @LastEditTime: 2025-06-09 16:12:01
 -->
 # xx:xx 20xx-xx-xx - xx20xx-xx-xx
 
@@ -85,17 +85,17 @@ export const axiosPre = '/api/goview'
 
 ```bash
 # 总控
-- master（xx-dev）：20xx-xx-xx 状态
-- master[20xx-xx-xx]：xx-dev[20xx-xx-xx] 状态
+- master(master-dev): 20xx-xx-xx 状态
+- master[20xx-xx-xx]: xx-dev[20xx-xx-xx] 状态
 * 来源：xx
 # 版本
-## eg: master-devx.0：20xx-xx-xx ~ 20xx-xx-xx (原始篇)
+## eg: master-devx.0: 20xx-xx-xx ~ 20xx-xx-xx (原始篇)
 或者
-## eg: masterx.0：20xx-xx-xx ~ 20xx-xx-xx (原始篇)
+## eg: masterx.0: 20xx-xx-xx ~ 20xx-xx-xx (原始篇)
 + xx
 * 子x
-## eg: masterx.1：20xx-xx-xx ~ 20xx-xx-xx (发版篇)
-## eg: masterx.2：20xx-xx-xx ~ 20xx-xx-xx (维护篇)
+## eg: masterx.1: 20xx-xx-xx ~ 20xx-xx-xx (发版篇)
+## eg: masterx.2: 20xx-xx-xx ~ 20xx-xx-xx (维护篇)
 
 ⭐ 状态说明
 - ING：属于进行中，未合并到master
