@@ -4,7 +4,7 @@
  * @Author: Kenny
  * @Date: 2025-04-30 15:42:29
  * @LastEditors: ~
- * @LastEditTime: 2025-06-05 18:08:04
+ * @LastEditTime: 2025-06-09 08:35:34
 -->
 # 计划
 
@@ -37,12 +37,8 @@ apiTemplate,request.ts
 * 15200000011/1-6（王英文）
 * 15200000119/1*6(李长安-中医） call✖ 账户问题
 * 15200009170/1*6（曹秀梅9170-中医） ✔
-1.0 添加在线医疗-在线问诊模块
-1.1 预约管理
-1.2 IM问诊
-1.3 问诊病例
-1.4 群管理二期功能
-1.4.1 解决iframe控制父集方法
+1.0 云信 IMChat
++ 二期IM云信框架升级V9->v10
 ```
 
 ## 预期计划
@@ -57,7 +53,6 @@ apiTemplate,request.ts
 1.3.1 数据大屏管理中心（大屏模块化） datacenter
 1.3.1.1 医生审核列表-新增上传图片异常
 1.3.2 云信 IMChat
-+ IM云信框架升级V9->v10
 + 实现跨域iframe（dealer4.1-IMChat5.2）和父窗口之间的通信
 + 优化中药处理校验问题（decoctionMethod，formulations）
 + 处理回复格式校验规则
