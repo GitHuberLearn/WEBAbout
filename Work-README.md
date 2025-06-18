@@ -4,7 +4,7 @@
  * @Author: Kenny
  * @Date: 2025-04-30 15:42:29
  * @LastEditors: ~
- * @LastEditTime: 2025-06-09 08:35:34
+ * @LastEditTime: 2025-06-12 10:10:54
 -->
 # 计划
 
@@ -18,8 +18,10 @@
 【update】
 dealer:
 toolStyle,tableMixin(apiTemplate)，utils
-AC:
-index-dashboard-module
+AW:
+index-dashboard-module(variables:$box-width;~@/assets/dash-board/box/box;添加el-table-bg)
+DialogCenterCenter:异常提示
+assets:重构
 IMChat:
 apiTemplate,request.ts
 ```
@@ -38,7 +40,10 @@ apiTemplate,request.ts
 * 15200000119/1*6(李长安-中医） call✖ 账户问题
 * 15200009170/1*6（曹秀梅9170-中医） ✔
 1.0 云信 IMChat
-+ 二期IM云信框架升级V9->v10
+2.0 AIHealthWearable: AI智能穿戴健康中心
+*AC largeScreenHO -96
+3.0 开发master_AW：AI智能穿戴健康中心
+
 ```
 
 ## 预期计划
@@ -56,7 +61,8 @@ apiTemplate,request.ts
 + 实现跨域iframe（dealer4.1-IMChat5.2）和父窗口之间的通信
 + 优化中药处理校验问题（decoctionMethod，formulations）
 + 处理回复格式校验规则
-
++ 二期IM云信框架升级V9->v10（DONE）
++ 部署master-dev6.1
 
 1.4 商城模块-思尔商城小程序
 1.4.1 分包处理
@@ -64,6 +70,7 @@ apiTemplate,request.ts
 2.1 数据库配置
 3.0 版本（bash内容样式升级）
 4.0 大屏三控件集成
+
 ```
 
 ## 其他计划

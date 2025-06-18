@@ -4,7 +4,7 @@
  * @Author: Kenny
  * @Date: 20xx-xx-xx 10:07:00
  * @LastEditors: ~
- * @LastEditTime: 2025-06-09 16:12:01
+ * @LastEditTime: 2025-06-18 08:56:31
 -->
 # xx:xx 20xx-xx-xx - xx20xx-xx-xx
 
@@ -81,7 +81,7 @@ export const axiosPre = '/api/goview'
 
 ## 项目里程碑 20xx-xx-xx ~
 
-### 项目(xx)明细 20xx-xx-xx ~
+### 项目(xx)明细
 
 ```bash
 # 总控
@@ -97,6 +97,8 @@ export const axiosPre = '/api/goview'
 ## eg: masterx.1: 20xx-xx-xx ~ 20xx-xx-xx (发版篇)
 ## eg: masterx.2: 20xx-xx-xx ~ 20xx-xx-xx (维护篇)
 
+⭐ 配置项
+- 每变更当下会备份一个分支
 ⭐ 状态说明
 - ING：属于进行中，未合并到master
 - DONE：完成状态，已经合并到master
@@ -111,8 +113,10 @@ export const axiosPre = '/api/goview'
 ```bash
 - 基于 xxx "^xx"
 - 含有  DISCARD\AMore文件 标志即将废弃内容,禁止调用里面内容
+* More: 备份文件,不会移除
+* MOCK: MOCK文件
 - 一般的：x.0(原始篇)，x.1(发版篇)，x.2 (维护篇)
-- 新迭代项目需要进行备份分支x.x.1
+* 新迭代项目需要进行备份分支x.x.1
 ```
 
 ### 相关Code
