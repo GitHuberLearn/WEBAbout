@@ -4,7 +4,7 @@
  * @Author: Kenny
  * @Date: 2025-04-30 15:42:29
  * @LastEditors: ~
- * @LastEditTime: 2025-06-12 10:10:54
+ * @LastEditTime: 2025-06-19 11:51:07
 -->
 # 计划
 
@@ -16,13 +16,14 @@
 ◆ mixins:*tableMixin【tableMixinDome_Upload】,Upload,apiTemplate
 ◆ utils:*index
 【update】
-dealer:
-toolStyle,tableMixin(apiTemplate)，utils
-AW:
+# AW:
 index-dashboard-module(variables:$box-width;~@/assets/dash-board/box/box;添加el-table-bg)
 DialogCenterCenter:异常提示
 assets:重构
-IMChat:
+toolStyle:舍弃fz命名使用fc
+utils
+tableMixin(apiTemplate)
+# IMChat:(另一种方式)
 apiTemplate,request.ts
 ```
 
@@ -43,7 +44,7 @@ apiTemplate,request.ts
 2.0 AIHealthWearable: AI智能穿戴健康中心
 *AC largeScreenHO -96
 3.0 开发master_AW：AI智能穿戴健康中心
-
+* 确认加载缓慢问题
 ```
 
 ## 预期计划
