@@ -45,6 +45,7 @@ apiTemplate,request.ts
 *AC largeScreenHO -96
 3.0 开发master_AW：AI智能穿戴健康中心
 * 确认加载缓慢问题
+- https://www.cnblogs.com/hiayap/p/17264463.html
 ```
 
 ## 预期计划
