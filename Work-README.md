@@ -4,7 +4,7 @@
  * @Author: Kenny
  * @Date: 2025-04-30 15:42:29
  * @LastEditors: ~
- * @LastEditTime: 2025-06-19 11:51:07
+ * @LastEditTime: 2025-06-19 15:36:07
 -->
 # 计划
 
@@ -18,6 +18,7 @@
 【update】
 # AW:
 index-dashboard-module(variables:$box-width;~@/assets/dash-board/box/box;添加el-table-bg)
++ 改动交大尤其中部，如有新项目，类似旧项目优先旧项目，再去迭代新项目，否则用此最新
 DialogCenterCenter:异常提示
 assets:重构
 toolStyle:舍弃fz命名使用fc
@@ -46,6 +47,7 @@ apiTemplate,request.ts
 3.0 开发master_AW：AI智能穿戴健康中心
 * 确认加载缓慢问题
 - https://www.cnblogs.com/hiayap/p/17264463.html
+* scroll_close：防止事件被禁止被注释，但是存在点击会触发滚动
 ```
 
 ## 预期计划
