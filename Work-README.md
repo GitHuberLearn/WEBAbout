@@ -4,7 +4,7 @@
  * @Author: Kenny
  * @Date: 2025-04-30 15:42:29
  * @LastEditors: ~
- * @LastEditTime: 2025-06-19 15:36:07
+ * @LastEditTime: 2025-06-23 13:38:18
 -->
 # 计划
 
@@ -24,6 +24,8 @@ assets:重构
 toolStyle:舍弃fz命名使用fc
 utils
 tableMixin(apiTemplate)
+common
+mockData.js移入mock.js
 # IMChat:(另一种方式)
 apiTemplate,request.ts
 ```
