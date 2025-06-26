@@ -23,11 +23,9 @@ DialogCenterCenter:异常提示
 assets:重构
 toolStyle:舍弃fz命名使用fc
 utils
-tableMixin(apiTemplate)
+tableMixin(apiTemplate)：request.js
 common
 mockData.js移入mock.js
-# IMChat:(另一种方式)
-apiTemplate,request.ts
 ```
 
 ## 周计划

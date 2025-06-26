@@ -4,7 +4,7 @@
  * @Author: Kenny
  * @Date: 20xx-xx-xx 10:07:00
  * @LastEditors: ~
- * @LastEditTime: 2025-06-18 08:56:31
+ * @LastEditTime: 2025-06-26 15:50:37
 -->
 # xx:xx 20xx-xx-xx - xx20xx-xx-xx
 
@@ -112,9 +112,11 @@ export const axiosPre = '/api/goview'
 
 ```bash
 - 基于 xxx "^xx"
-- 含有  DISCARD\AMore文件 标志即将废弃内容,禁止调用里面内容
+- 含有 DISCARD\AMore 文件 标志即将废弃内容,禁止调用里面内容
 * More: 备份文件,不会移除
 * MOCK: MOCK文件
+* control: 控制集成文件
+* updateNewRemove: 替代者 新项目移除此方式
 - 一般的：x.0(原始篇)，x.1(发版篇)，x.2 (维护篇)
 * 新迭代项目需要进行备份分支x.x.1
 ```
