@@ -4,7 +4,7 @@
  * @Author: Kenny
  * @Date: 2025-04-30 15:42:29
  * @LastEditors: ~
- * @LastEditTime: 2025-06-23 13:38:18
+ * @LastEditTime: 2025-06-30 16:14:04
 -->
 # 计划
 
@@ -45,7 +45,6 @@ mockData.js移入mock.js
 2.0 AIHealthWearable: AI智能穿戴健康中心
 *AC largeScreenHO -96
 3.0 开发master_AW：AI智能穿戴健康中心
-* 确认加载缓慢问题
 - https://www.cnblogs.com/hiayap/p/17264463.html
 * scroll_close：防止事件被禁止被注释，但是存在点击会触发滚动
 ```
@@ -74,7 +73,6 @@ mockData.js移入mock.js
 2.1 数据库配置
 3.0 版本（bash内容样式升级）
 4.0 大屏三控件集成
-
 ```
 
 ## 其他计划
