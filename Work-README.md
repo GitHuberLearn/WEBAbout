@@ -4,28 +4,38 @@
  * @Author: Kenny
  * @Date: 2025-04-30 15:42:29
  * @LastEditors: ~
- * @LastEditTime: 2025-06-30 16:14:04
+ * @LastEditTime: 2025-07-08 12:02:46
 -->
 # 计划
 
 ## 通用型工具包：三控件（具体见模块化开发标准）
 
 ```bash
-（合作项目 bus_*AC/SC/TRN,Dealer,seerAdmin,Datacenter）
+（合作项目 bus_*TA/AW/AC/SC/TRN,Dealer,seerAdmin,Datacenter）
 ◆ styles:*toolStyle、common、index-dashboard-module (variables）
-◆ mixins:*tableMixin【tableMixinDome_Upload】,Upload,apiTemplate
 ◆ utils:*index
-【update】
-# AW:
-index-dashboard-module(variables:$box-width;~@/assets/dash-board/box/box;添加el-table-bg)
-+ 改动交大尤其中部，如有新项目，类似旧项目优先旧项目，再去迭代新项目，否则用此最新
-DialogCenterCenter:异常提示
-assets:重构
-toolStyle:舍弃fz命名使用fc
-utils
-tableMixin(apiTemplate)：request.js
-common
-mockData.js移入mock.js
+◆ mixins:*tableMixin【tableMixinDome_Upload】,Upload,apiTemplate
+【update】TA【改动交大尤其中部，如有新项目，类似旧项目优先旧项目，再去迭代新项目，否则用此最新】
+## DialogWarningReminder: 异常提示
+## styles:
++ common
++ 优先处理styles>variables
+* assets:重构
+* toolStyle:舍弃fz命名使用fc
+* index-dashboard-module(variables:$box-width;~@/assets/dash-board/box/box;添加el-table-bg)
+## help:
++ utils
++ mock(index.js  mockData.js移入mock文件index)
++ index.js
+## utils
+## mixins: tableMixin(apiTemplate)：request.js
+## 其他
++ 后台系统mock数据逻辑处理：tableMixin处理
+* 路线管理mock逻辑处理
+## 循环依赖：检查是否存在模块间循环引用,导致无法使用以下方式
+export const getCustomTimes = (param) => {
+  return param;
+};
 ```
 
 ## 周计划
@@ -47,6 +57,8 @@ mockData.js移入mock.js
 3.0 开发master_AW：AI智能穿戴健康中心
 - https://www.cnblogs.com/hiayap/p/17264463.html
 * scroll_close：防止事件被禁止被注释，但是存在点击会触发滚动
+4.0 开发master_TA：出租车类
+4.1 master_AW合并master_devAW
 ```
 
 ## 预期计划
@@ -73,12 +85,16 @@ mockData.js移入mock.js
 2.1 数据库配置
 3.0 版本（bash内容样式升级）
 4.0 大屏三控件集成
+4.1 requestApi的工厂化使用
+5.0 magic-api
+5.1 函数，定时器的应用
+5.2 解决数据存储问题： cardClaimRecord 代金券基数
 ```
 
 ## 其他计划
 
 ```bash
-# 云界面：实现动态接口fox改利调息
+# 云界面：替代亚马逊
 # 二建考试
 # D:\软件\Office
 ```
