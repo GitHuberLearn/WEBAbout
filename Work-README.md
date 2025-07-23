@@ -4,7 +4,7 @@
  * @Author: Kenny
  * @Date: 2025-04-30 15:42:29
  * @LastEditors: ~
- * @LastEditTime: 2025-07-14 08:44:24
+ * @LastEditTime: 2025-07-22 10:31:18
 -->
 # 计划
 
@@ -13,6 +13,9 @@
 ```bash
 （合作项目 bus_*TA/AW/AC/SC/TRN,Dealer,seerAdmin,Datacenter）
 ◆ styles:*toolStyle、common、index-dashboard-module (variables）
+- 使用流程
++ 添加variables
++ vue.config配置alias，prependData
 ◆ utils:*index(help)
 ◆ mixins:*tableMixin【tableMixinDome_Upload】,Upload,apiTemplate
 【update】TA【改动交大尤其中部，如有新项目，类似旧项目优先旧项目，再去迭代新项目，否则用此最新】
@@ -48,20 +51,19 @@
 * 15200000011/1-6（王英文）
 * 15200000119/1*6(李长安-中医） call✖ 账户问题
 * 15200009170/1*6（曹秀梅9170-中医） ✔
+
 1.0 云信 IMChat
-2.0 AIHealthWearable: AI智能穿戴健康中心
-*AC largeScreenHO -96
-3.0 开发master_AW：AI智能穿戴健康中心
+2.0 开发master_AW：AI智能穿戴健康中心
 - https://www.cnblogs.com/hiayap/p/17264463.html
 * scroll_close：防止事件被禁止被注释，但是存在点击会触发滚动
-3.1 master_AW合并master_devAW
-4.0 开发master_TA：出租车类
-## 循环依赖：检查是否存在模块间循环引用,导致无法使用以下方式
+3.0 开发master_TA：出租车类
+* 2.1.1版本requestWebUI异常处理
+* 循环依赖：检查是否存在模块间循环引用,导致无法使用以下方式
 export const getCustomTimes = (param) => {
   return param;
 };
-4.1 解决导入无法使用问题(master_TA2.1.1)
-5.0 APP开发：AI健康检测报告
+3.1 解决导入无法使用问题(master_TA2.1.1)
+4.0 开发master_EnOC：国际化社区
 ```
 
 ## 预期计划

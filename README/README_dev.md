@@ -1,5 +1,5 @@
 <!--
- * @Descripttion: Sustainable
+ * @Descripttion: xx[xx] (xxxx-xx-xx ~ xxxx-xx-xx)
  * @version: 1.0.0
  * @Author: Kenny
  * @Date: 20xx-xx-xx 10:07:00
@@ -100,10 +100,10 @@ export const axiosPre = '/api/goview'
 ⭐ 配置项
 - 每变更当下会备份一个分支
 ⭐ 状态说明
-- ING：属于进行中，未合并到master
-- DONE：完成状态，已经合并到master
-- DONE-MOCK：完成状态，仅是模拟数据
-- PAUSE：暂停状态
+- ING: 属于进行中，未合并到master
+- DONE: 完成状态，已经合并到master
+- DONEMOCK: 完成状态，仅是模拟数据
+- PAUSE: 暂停状态
 ```
 
 ## 技术支持
