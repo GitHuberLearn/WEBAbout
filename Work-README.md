@@ -4,38 +4,33 @@
  * @Author: Kenny
  * @Date: 2025-04-30 15:42:29
  * @LastEditors: ~
- * @LastEditTime: 2025-07-22 10:31:18
+ * @LastEditTime: 2025-09-01 11:18:34
 -->
 # 计划
 
 ## 通用型工具包：三控件（具体见模块化开发标准）
 
 ```bash
-（合作项目 bus_*TA/AW/AC/SC/TRN,Dealer,seerAdmin,Datacenter）
+（合作项目 bus_TA/AW/AC/SC/TRN,*Dealer,seerAdmin,Datacenter）
 ◆ styles:*toolStyle、common、index-dashboard-module (variables）
 - 使用流程
 + 添加variables
+  $fz -> $f_
 + vue.config配置alias，prependData
 ◆ utils:*index(help)
-◆ mixins:*tableMixin【tableMixinDome_Upload】,Upload,apiTemplate
-【update】TA【改动交大尤其中部，如有新项目，类似旧项目优先旧项目，再去迭代新项目，否则用此最新】
-## DialogWarningReminder: 异常提示
-## styles:
-+ common
-+ 优先处理styles>variables
-* assets:重构
-* toolStyle:舍弃fz命名使用fc
-* index-dashboard-module(variables:$box-width;~@/assets/dash-board/box/box;添加el-table-bg)
 ## help:
 + mock(index.js  mockData.js移入mock文件index)
 + requestWebUI
 + utils
 + index.js
-## utils
-## mixins: tableMixin(apiTemplate)：request.js
+◆ mixins:*tableMixin【tableMixinDome_Upload】,Upload,apiTemplate
+
+【update】TA【改动交大尤其中部，如有新项目，类似旧项目优先旧项目，再去迭代新项目，否则用此最新】
+## DialogWarningReminder: 异常提示
 ## 其他
 + 后台系统mock数据逻辑处理：tableMixin处理
 * 路线管理mock逻辑处理
+
 ```
 
 ## 周计划
@@ -57,13 +52,29 @@
 - https://www.cnblogs.com/hiayap/p/17264463.html
 * scroll_close：防止事件被禁止被注释，但是存在点击会触发滚动
 3.0 开发master_TA：出租车类
-* 2.1.1版本requestWebUI异常处理
 * 循环依赖：检查是否存在模块间循环引用,导致无法使用以下方式
 export const getCustomTimes = (param) => {
   return param;
 };
 3.1 解决导入无法使用问题(master_TA2.1.1)
-4.0 开发master_EnOC：国际化社区
+4.0 开发master_EnOC：国际化社区bugge处理
+5.0 优化处理AI健康检测报告无数据逻辑异常情况
+6.0 经销商：APP充值&群聊商品统计【DONE】
++ 充值卡记录导出二次迭代
+7.0 舌诊模块< 9.20-25
+    舌诊分析 /tongueDiagnosis
+      数据标记 /dataMarking
+      统计 /statistics
+      提成 /commission
+      金额配置 /amountConfiguration
+8.0 Dealer 三控件更新
+
+
+⭐ 状态说明
+- ING: 属于进行中，未合并到master
+- DONE: 完成状态，已经合并到master
+- DONEMOCK: 完成状态，仅是模拟数据
+- PAUSE: 暂停状态
 ```
 
 ## 预期计划
@@ -83,7 +94,7 @@ export const getCustomTimes = (param) => {
 + 处理回复格式校验规则
 + 二期IM云信框架升级V9->v10（DONE）
 + 部署master-dev6.1
-
+1.4 main utils:无法定义待处理
 
 1.4 商城模块-思尔商城小程序
 1.4.1 分包处理
@@ -95,6 +106,7 @@ export const getCustomTimes = (param) => {
 5.0 magic-api
 5.1 函数，定时器的应用
 5.2 解决数据存储问题： cardClaimRecord 代金券基数
+6.0 收集开发项目可视化连接地址
 ```
 
 ## 其他计划
