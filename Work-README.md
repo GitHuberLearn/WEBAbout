@@ -63,7 +63,7 @@ export const getCustomTimes = (param) => {
 + 充值卡记录导出二次迭代
 7.0 舌诊模块< 9.20-25
     舌诊分析 /tongueDiagnosis
-      数据标记 /dataMarking
+      数据标记 /dataMarking 联调
       统计 /statistics
       提成 /commission
       金额配置 /amountConfiguration
