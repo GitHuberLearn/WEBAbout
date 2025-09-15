@@ -1,0 +1,23 @@
+模拟器Ctrl+6｛NOX:work｝
+夜神模拟器一直调用摄像头
+ivcam
+
+vscode输入一个替换一个字符的问题，解决按Ins
+
+
+更新：腾文Work（技术总结）
+************** Code ***************
+calc(100% - #{$hw})
+confine: true,
+************** VScode ***************
+Ctrl+Windows+I（表头-保持会更新时间）
+Ctrl+Windows+T（方法）
+Ctrl+Windows+J（图案）
+************** Command ***************
+
+************** System ***************
+ipconfig
+抓包：mitmweb
+代理自创数据结构：双击 windows_go.bat
+
+系统清理：此电脑->C盘->属性->磁盘清理->临时文件/回收站
