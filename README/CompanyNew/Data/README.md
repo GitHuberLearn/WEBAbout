@@ -1,0 +1,13 @@
+<!--
+ * @Descripttion: 说明
+ * @version: 1.0.0
+ * @Author: Kenny
+ * @Date: 2022-09-14 15:29:06
+ * @LastEditors: ~
+ * @LastEditTime: 2025-09-15 14:28:19
+-->
+# 说明
+
+```bash
+- OfficeCatalogue：办公目录明细文件夹
+```
