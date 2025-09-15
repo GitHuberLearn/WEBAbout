@@ -4,7 +4,7 @@
  * @Author: Kenny
  * @Date: 2025-04-30 15:42:29
  * @LastEditors: ~
- * @LastEditTime: 2025-09-01 11:18:34
+ * @LastEditTime: 2025-09-15 14:01:14
 -->
 # 计划
 
@@ -30,7 +30,6 @@
 ## 其他
 + 后台系统mock数据逻辑处理：tableMixin处理
 * 路线管理mock逻辑处理
-
 ```
 
 ## 周计划
@@ -61,13 +60,12 @@ export const getCustomTimes = (param) => {
 5.0 优化处理AI健康检测报告无数据逻辑异常情况
 6.0 经销商：APP充值&群聊商品统计【DONE】
 + 充值卡记录导出二次迭代
-7.0 舌诊模块< 9.20-25
-    舌诊分析 /tongueDiagnosis
-      数据标记 /dataMarking 联调
-      统计 /statistics
-      提成 /commission
-      金额配置 /amountConfiguration
+7.0 舌诊模块 20250920 - 20250925
 8.0 Dealer 三控件更新
+9.0 其他计划
+9.1 兑换卡管理/充值卡记录：selectCardsVip时间检索异常
+10.0 腾讯IM：客户通信 20250915 - 20250919
+
 
 
 ⭐ 状态说明
