@@ -89,13 +89,13 @@ export const axiosPre = '/api/goview'
 - master[20xx-xx-xx]: xx-dev[20xx-xx-xx] 状态
 * 来源：xx
 # 版本
-## eg: master-devx.0: 20xx-xx-xx ~ 20xx-xx-xx (原始篇)
+## eg: master-devx.0: 20xx-xx-xx ~ 20xx-xx-xx (原始版本)
 或者
-## eg: masterx.0: 20xx-xx-xx ~ 20xx-xx-xx (原始篇)
+## eg: masterx.0: 20xx-xx-xx ~ 20xx-xx-xx (原始版本)
 + xx
 * 子x
-## eg: masterx.1: 20xx-xx-xx ~ 20xx-xx-xx (发版篇)
-## eg: masterx.2: 20xx-xx-xx ~ 20xx-xx-xx (维护篇)
+## eg: masterx.1: 20xx-xx-xx ~ 20xx-xx-xx (发布版本)
+## eg: masterx.2: 20xx-xx-xx ~ 20xx-xx-xx (维护版本)
 
 ⭐ 配置项
 - 每变更当下会备份一个分支

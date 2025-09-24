@@ -12,7 +12,7 @@
 - xx
 ```
 
-## xx：xx （202x.xx.1xx - 202x.xx.1xx）
+## xx: xx （202x.xx.1xx - 202x.xx.1xx）
 
 ```bash
 - xx

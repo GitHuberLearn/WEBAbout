@@ -4,7 +4,7 @@
  * @Author: Kenny
  * @Date: 2025-04-30 15:42:29
  * @LastEditors: ~
- * @LastEditTime: 2025-09-15 14:01:14
+ * @LastEditTime: 2025-09-24 10:45:57
 -->
 # 计划
 
@@ -30,6 +30,10 @@
 ## 其他
 + 后台系统mock数据逻辑处理：tableMixin处理
 * 路线管理mock逻辑处理
+
+# IMChatTencent
+
+
 ```
 
 ## 周计划
@@ -60,12 +64,21 @@ export const getCustomTimes = (param) => {
 5.0 优化处理AI健康检测报告无数据逻辑异常情况
 6.0 经销商：APP充值&群聊商品统计【DONE】
 + 充值卡记录导出二次迭代
-7.0 舌诊模块 20250920 - 20250925
++ 兑换卡管理/充值卡记录：selectCardsVip时间检索异常
+7.0 模块开发
+7.1 舌诊模块 20250920 - 20250925
+7.2 腾讯IM
+7.2 IMT在线客服模块：腾讯IM 20250915 - 20250919 (IMTOnlineCustomerService)
++ 兼容性配置
++ 使用Vue3规范化
++ 请求统一化token
++ 合并到IMChat
+7.3 IMT客服配置模块：腾讯IM 20250922 - 20250922 (IMTCustomerServiceConfig)
+
 8.0 Dealer 三控件更新
 9.0 其他计划
-9.1 兑换卡管理/充值卡记录：selectCardsVip时间检索异常
-10.0 腾讯IM：客户通信 20250915 - 20250919
-
+9.1 正式ImGroupManagement修改/service/imGroupManagement
+10.0 售后管理/维修工单列表迭代
 
 
 ⭐ 状态说明
