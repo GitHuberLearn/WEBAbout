@@ -1,3 +1,6 @@
+http://192.168.1.156
+\\192.168.1.156\
+net use * \\192.168.1.156\print$ /user:guest
 模拟器Ctrl+6｛NOX:work｝
 夜神模拟器一直调用摄像头
 ivcam
@@ -10,12 +13,13 @@ vscode输入一个替换一个字符的问题，解决按Ins
 calc(100% - #{$hw})
 confine: true,
 ************** VScode ***************
-Ctrl+Windows+I（表头-保持会更新时间）
-Ctrl+Windows+T（方法）
-Ctrl+Windows+J（图案）
+Ctrl+Windows+I：表头-保持会更新时间
+Ctrl+Windows+T：方法
+Ctrl+Windows+J：图案
 ************** Command ***************
 
 ************** System ***************
+Windows+I：wind设置
 ipconfig
 抓包：mitmweb
 代理自创数据结构：双击 windows_go.bat

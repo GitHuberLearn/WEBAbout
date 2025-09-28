@@ -4,14 +4,14 @@
  * @Author: Kenny
  * @Date: 2025-04-30 15:42:29
  * @LastEditors: ~
- * @LastEditTime: 2025-09-24 10:45:57
+ * @LastEditTime: 2025-09-25 16:04:13
 -->
 # 计划
 
 ## 通用型工具包：三控件（具体见模块化开发标准）
 
 ```bash
-（合作项目 bus_TA/AW/AC/SC/TRN,*Dealer,seerAdmin,Datacenter）
+（合作项目 bus_TA/AW/AC/SC/TRN,*Dealer,seerAdmin,Datacenter,IMChatTencent）
 ◆ styles:*toolStyle、common、index-dashboard-module (variables）
 - 使用流程
 + 添加variables
@@ -32,7 +32,6 @@
 * 路线管理mock逻辑处理
 
 # IMChatTencent
-
 
 ```
 
@@ -67,19 +66,23 @@ export const getCustomTimes = (param) => {
 + 兑换卡管理/充值卡记录：selectCardsVip时间检索异常
 7.0 模块开发
 7.1 舌诊模块 20250920 - 20250925
-7.2 腾讯IM
+
 7.2 IMT在线客服模块：腾讯IM 20250915 - 20250919 (IMTOnlineCustomerService)
 + 兼容性配置
 + 使用Vue3规范化
 + 请求统一化token
 + 合并到IMChat
++ 添加上下线状态：腾讯云
+
+
 7.3 IMT客服配置模块：腾讯IM 20250922 - 20250922 (IMTCustomerServiceConfig)
 
 8.0 Dealer 三控件更新
 9.0 其他计划
-9.1 正式ImGroupManagement修改/service/imGroupManagement
+9.1 正式 ImGroupManagement 修改/service/imGroupManagement
 10.0 售后管理/维修工单列表迭代
-
+11.0 datacenter
++ 备份原始版本：处理$bus问题
 
 ⭐ 状态说明
 - ING: 属于进行中，未合并到master
@@ -126,4 +129,5 @@ export const getCustomTimes = (param) => {
 # 云界面：替代亚马逊
 # 二建考试
 # D:\软件\Office
+# md目录更新化
 ```

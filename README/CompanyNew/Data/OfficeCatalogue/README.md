@@ -6,10 +6,11 @@
  * @LastEditors: ~
  * @LastEditTime: 2025-09-15 14:41:13
 -->
-# 目录
+# OfficeCatalogue 目录：E盘
 
 ```bash
 - Git文件
+- 说明md文件: 解释目录结构情况
 ```
 
 ## ITCode：公司Git
