@@ -4,7 +4,7 @@
  * @Author: Kenny
  * @Date: 2025-04-30 15:42:29
  * @LastEditors: ~
- * @LastEditTime: 2025-09-25 16:04:13
+ * @LastEditTime: 2025-09-29 13:39:52
 -->
 # 计划
 
@@ -62,25 +62,17 @@ export const getCustomTimes = (param) => {
 4.0 开发master_EnOC：国际化社区bugge处理
 5.0 优化处理AI健康检测报告无数据逻辑异常情况
 6.0 经销商：APP充值&群聊商品统计【DONE】
-+ 充值卡记录导出二次迭代
-+ 兑换卡管理/充值卡记录：selectCardsVip时间检索异常
 7.0 模块开发
 7.1 舌诊模块 20250920 - 20250925
-
 7.2 IMT在线客服模块：腾讯IM 20250915 - 20250919 (IMTOnlineCustomerService)
 + 兼容性配置
 + 使用Vue3规范化
 + 请求统一化token
 + 合并到IMChat
-+ 添加上下线状态：腾讯云
-
-
-7.3 IMT客服配置模块：腾讯IM 20250922 - 20250922 (IMTCustomerServiceConfig)
-
 8.0 Dealer 三控件更新
 9.0 其他计划
-9.1 正式 ImGroupManagement 修改/service/imGroupManagement
-10.0 售后管理/维修工单列表迭代
++ 售后管理/维修工单列表迭代
++ 根据id找用户
 11.0 datacenter
 + 备份原始版本：处理$bus问题
 
