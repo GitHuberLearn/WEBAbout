@@ -4,7 +4,7 @@
  * @Author: Kenny
  * @Date: 20xx-xx-xx 10:07:00
  * @LastEditors: ~
- * @LastEditTime: 2025-11-05 16:46:18
+ * @LastEditTime: 2025-11-05 16:52:17
 -->
 # xx:xx 20xx-xx-xx - xx20xx-xx-xx
 
@@ -94,8 +94,9 @@ export const axiosPre = '/api/goview'
 ## eg: masterx.0: 20xx-xx-xx ~ 20xx-xx-xx (原始版本)
 + xx
 * 子x
-## eg: masterx.1: 20xx-xx-xx ~ 20xx-xx-xx (发布版本) DONE
-## eg: masterx.2: 20xx-xx-xx ~ 20xx-xx-xx (维护版本)
+## eg: masterx.1: 20xx-xx-xx ~ 20xx-xx-xx (开发版本) 
+## eg: masterx.2: 20xx-xx-xx ~ 20xx-xx-xx (发布版本) DONE
+## eg: masterx.3: 20xx-xx-xx ~ 20xx-xx-xx (维护版本)
 
 ⭐ 配置项
 - 每变更当下会备份一个分支
