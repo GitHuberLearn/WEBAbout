@@ -4,7 +4,7 @@
  * @Author: Kenny
  * @Date: 20xx-xx-xx 10:07:00
  * @LastEditors: ~
- * @LastEditTime: 2025-11-05 16:52:17
+ * @LastEditTime: 2025-11-05 16:54:33
 -->
 # xx:xx 20xx-xx-xx - xx20xx-xx-xx
 
@@ -119,7 +119,7 @@ export const axiosPre = '/api/goview'
 * MOCK: MOCK文件
 * control: 控制集成文件
 * updateNewRemove: 替代者 新项目移除此方式
-- 一般的：x.0(原始篇)，x.1(发版篇)，x.2 (维护篇)
+- 一般的：x.0(原始篇)，x.1(开发版本)，x.2 (发布版本)DONE，x.3 (维护篇)
 * 新迭代项目需要进行备份分支x.x.1
 ```
 
