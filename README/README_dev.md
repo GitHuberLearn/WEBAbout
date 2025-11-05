@@ -4,7 +4,7 @@
  * @Author: Kenny
  * @Date: 20xx-xx-xx 10:07:00
  * @LastEditors: ~
- * @LastEditTime: 2025-06-26 15:50:37
+ * @LastEditTime: 2025-11-05 16:46:18
 -->
 # xx:xx 20xx-xx-xx - xx20xx-xx-xx
 
@@ -94,7 +94,7 @@ export const axiosPre = '/api/goview'
 ## eg: masterx.0: 20xx-xx-xx ~ 20xx-xx-xx (原始版本)
 + xx
 * 子x
-## eg: masterx.1: 20xx-xx-xx ~ 20xx-xx-xx (发布版本)
+## eg: masterx.1: 20xx-xx-xx ~ 20xx-xx-xx (发布版本) DONE
 ## eg: masterx.2: 20xx-xx-xx ~ 20xx-xx-xx (维护版本)
 
 ⭐ 配置项
@@ -104,6 +104,7 @@ export const axiosPre = '/api/goview'
 - DONE: 完成状态，已经合并到master
 - DONEMOCK: 完成状态，仅是模拟数据
 - PAUSE: 暂停状态
+- CHARGE: 收费
 ```
 
 ## 技术支持
@@ -124,13 +125,48 @@ export const axiosPre = '/api/goview'
 ### 相关Code
 
 ```js
-- x
+//部署环境不能写的格式
+- template包含?.符号
+//message
+//type: 状态
+- primary
+- success
+- warning
+- danger
+this.$message({
+    type,
+    message: msg,
+});
+this.$message.success('操作成功！')
+this.$message.info('提示！')
+this.$message.warning('提醒！')
+this.$message.error('操作失败！')
+//api
+this.loading = true;
+api({params  }).then((res) => {
+    if (res.data === 1) {
+        this.$message.success("xx！");
+    } else if (res.code === 1) {
+        this.$message.warning(res.msg);
+    }
+})
+.catch((err) => {
+    //api已经处理不需要 console.error(err); this.$message.error(err.message);
+    this.loading = false;
+});
+this.$nextTick(() => {});
+//tool
+ {{ $utils.toDateString(date) }}
+ {{ sexSwitch(scope.row.gender) }}
+ {{ age_cofig(scope.row.birthday) }}
 ```
 
 ### 交流
 
+```bash
 QQ 群：xx
 
 ![QQ群](x.png)
 
 ![渲染海报](x.png)
+```
