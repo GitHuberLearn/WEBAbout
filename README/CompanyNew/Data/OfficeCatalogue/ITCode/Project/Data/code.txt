@@ -1,3 +1,4 @@
+
 http://192.168.1.156
 \\192.168.1.156\
 net use * \\192.168.1.156\print$ /user:guest
@@ -12,6 +13,9 @@ vscode输入一个替换一个字符的问题，解决按Ins
 ************** Code ***************
 calc(100% - #{$hw})
 confine: true,
+图片
+require("@/assets/image/image-null.png"),
+require("@/assets/image/image-loading.gif"),
 ************** VScode ***************
 Ctrl+Windows+I：表头-保持会更新时间
 Ctrl+Windows+T：方法
@@ -25,3 +29,5 @@ ipconfig
 代理自创数据结构：双击 windows_go.bat
 
 系统清理：此电脑->C盘->属性->磁盘清理->临时文件/回收站
+
+更新：WEBAbout说明
