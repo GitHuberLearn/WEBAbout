@@ -4,7 +4,7 @@
  * @Author: Kenny
  * @Date: 2025-04-30 15:42:29
  * @LastEditors: ~
- * @LastEditTime: 2025-09-29 13:39:52
+ * @LastEditTime: 2025-11-05 14:15:59
 -->
 # 计划
 
@@ -31,7 +31,6 @@
 + 后台系统mock数据逻辑处理：tableMixin处理
 * 路线管理mock逻辑处理
 
-# IMChatTencent
 
 ```
 
@@ -60,21 +59,14 @@ export const getCustomTimes = (param) => {
 };
 3.1 解决导入无法使用问题(master_TA2.1.1)
 4.0 开发master_EnOC：国际化社区bugge处理
-5.0 优化处理AI健康检测报告无数据逻辑异常情况
-6.0 经销商：APP充值&群聊商品统计【DONE】
-7.0 模块开发
-7.1 舌诊模块 20250920 - 20250925
-7.2 IMT在线客服模块：腾讯IM 20250915 - 20250919 (IMTOnlineCustomerService)
-+ 兼容性配置
-+ 使用Vue3规范化
-+ 请求统一化token
-+ 合并到IMChat
-8.0 Dealer 三控件更新
-9.0 其他计划
-+ 售后管理/维修工单列表迭代
-+ 根据id找用户
-11.0 datacenter
-+ 备份原始版本：处理$bus问题
+5.0 模块开发：
+5.1 游戏：2025-10-29 ~ 2025-11-21
++ 前端/后端 心理游戏
++ 前端/后端/Web 心理解压
+5.2 心理学大屏系统
+6.0 Dealer 三控件更新
+7.0 其他计划
+
 
 ⭐ 状态说明
 - ING: 属于进行中，未合并到master
@@ -87,26 +79,24 @@ export const getCustomTimes = (param) => {
 
 ```bash
 0.0 更新同步（styles、mixins、utils三控件）
++ tableMixin兼容Vue3.0
+* this.$message
+* 调用querySearchList
 1.0 经销商系统 dealer
 1.1 经销商系统界面维护与修复处理
-1.1.1 修改密码-updatePassword未校验
 1.2 经销商系统框架维护与技术支持
 1.3 医生模块
-1.3.1 数据大屏管理中心（大屏模块化） datacenter
+1.3.1 seerAdmin 数据管理中心 
 1.3.1.1 医生审核列表-新增上传图片异常
-1.3.2 云信 IMChat
-+ 实现跨域iframe（dealer4.1-IMChat5.2）和父窗口之间的通信
-+ 优化中药处理校验问题（decoctionMethod，formulations）
-+ 处理回复格式校验规则
-+ 二期IM云信框架升级V9->v10（DONE）
-+ 部署master-dev6.1
+1.3.1.2 合并三控件
 1.4 main utils:无法定义待处理
-
-1.4 商城模块-思尔商城小程序
-1.4.1 分包处理
+1.5 商城模块-思尔商城小程序
+1.5.1 分包处理
+1.6 迭代：
+1.6.1 售后管理/维修工单列表迭代：按钮显示的逻辑
 2.0 大屏BI智能系统
 2.1 数据库配置
-3.0 版本（bash内容样式升级）
+3.0 datacenter 数据大屏管理中心（大屏模块化）：样式升级
 4.0 大屏三控件集成
 4.1 requestWebUI的工厂化使用
 5.0 magic-api
@@ -119,7 +109,6 @@ export const getCustomTimes = (param) => {
 
 ```bash
 # 云界面：替代亚马逊
-# 二建考试
 # D:\软件\Office
 # md目录更新化
 ```
