@@ -111,4 +111,5 @@ export const getCustomTimes = (param) => {
 # 云界面：替代亚马逊
 # D:\软件\Office
 # md目录更新化
+# 备份全局：.gitconfig
 ```
