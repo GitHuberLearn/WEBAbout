@@ -103,6 +103,7 @@ export const getCustomTimes = (param) => {
 5.1 函数，定时器的应用
 5.2 解决数据存储问题： cardClaimRecord 代金券基数
 6.0 收集开发项目可视化连接地址
+7.0 IMT：无法复制换行内容
 ```
 
 ## 其他计划
@@ -111,4 +112,5 @@ export const getCustomTimes = (param) => {
 # 云界面：替代亚马逊
 # D:\软件\Office
 # md目录更新化
+# 解决Template-VueApp_All在最近node不能运行问题，已经复制除了src外的所有AppHealth配置
 ```
