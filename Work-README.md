@@ -4,7 +4,7 @@
  * @Author: Kenny
  * @Date: 2025-04-30 15:42:29
  * @LastEditors: ~
- * @LastEditTime: 2025-11-05 14:15:59
+ * @LastEditTime: 2025-11-18 08:47:19
 -->
 # 计划
 
@@ -112,5 +112,5 @@ export const getCustomTimes = (param) => {
 # 云界面：替代亚马逊
 # D:\软件\Office
 # md目录更新化
-# 解决Template-VueApp_All在最近node不能运行问题，已经复制除了src外的所有AppHealth配置
+# 备份全局：.gitconfig
 ```
