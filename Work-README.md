@@ -4,7 +4,7 @@
  * @Author: Kenny
  * @Date: 2025-04-30 15:42:29
  * @LastEditors: ~
- * @LastEditTime: 2025-11-18 08:47:19
+ * @LastEditTime: 2025-11-26 11:31:56
 -->
 # 计划
 
@@ -60,9 +60,7 @@ export const getCustomTimes = (param) => {
 3.1 解决导入无法使用问题(master_TA2.1.1)
 4.0 开发master_EnOC：国际化社区bugge处理
 5.0 模块开发：
-5.1 游戏：2025-10-29 ~ 2025-11-21
-+ 前端/后端 心理游戏
-+ 前端/后端/Web 心理解压
+5.1 AppHealth：less的集成
 5.2 心理学大屏系统
 6.0 Dealer 三控件更新
 7.0 其他计划
