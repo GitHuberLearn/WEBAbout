@@ -1,6 +1,5 @@
 11 25
 
-
 changeway
 
 更新：腾文Work信息
@@ -8,19 +7,24 @@ changeway
 1、地址：陕西省西安市雁塔区都市之门D座1709转8011
 2、联系方式：029-88603656
 3、入职时间：2022.03.14
-http://git.seer-health.com/user/login?redirect_to=
+二、项目账号
+1、http://git.seer-health.com/user/login?redirect_to=
 	yangke@shxseer.com（1-6）
+2、WinSCP：
+113.200.89.198    9705  
+目录 /home/seer/www/app  
+用户: yangke
+密码: xQ7BtrRFG2lKQ3fp99n3
+三、702(软件办公室)
 1702(软件办公室) 
 seer-office1702 密码：（seer）88603656
-二、打印机
+四、打印机
 1020：net use * \\192.168.1.156\print$ /user:guest
           wind+R:\\192.168.1.156
 181fw：前台
 打印一张（无字朝上）
-三、
-账户：心佑-手机_1*7a+
-四、ToDesk:Aa!12345
-五、电脑配置
+六、账户：心佑-手机_1*7a+
+八、电脑配置
 处理器：Intel(R) Core(TM) i5-7400 CPU @ 3.00GHz 3.00 GHz
 R A M：16.0GB
 内  存：119+332+599=1050G （1T）
