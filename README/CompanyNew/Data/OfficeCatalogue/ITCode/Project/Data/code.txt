@@ -27,6 +27,7 @@ Windows+I：wind设置
 ipconfig
 抓包：mitmweb
 代理自创数据结构：双击 windows_go.bat
+java: 17.0.12
 
 系统清理：此电脑->C盘->属性->磁盘清理->临时文件/回收站
 

@@ -61,7 +61,7 @@ export const getCustomTimes = (param) => {
 4.0 开发master_EnOC：国际化社区bugge处理
 5.0 模块开发：
 5.1 AppHealth：less的集成
-5.2 小程序开发：商城分析调研
+5.2 小程序开发：商城开发
 6.0 Dealer 三控件更新
 7.0 其他计划
 
