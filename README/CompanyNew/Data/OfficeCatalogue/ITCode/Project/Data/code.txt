@@ -1,5 +1,5 @@
 
-http://192.168.1.156
+http://192.168.10.156
 \\192.168.1.156\
 net use * \\192.168.1.156\print$ /user:guest
 模拟器Ctrl+6｛NOX:work｝
@@ -27,8 +27,11 @@ Windows+I：wind设置
 ipconfig
 抓包：mitmweb
 代理自创数据结构：双击 windows_go.bat
-java: 17.0.12
+java: 11.0.12
 
 系统清理：此电脑->C盘->属性->磁盘清理->临时文件/回收站
 
 更新：WEBAbout说明
+
+
+9.28

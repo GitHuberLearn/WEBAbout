@@ -4,7 +4,7 @@
  * @Author: Kenny
  * @Date: 2025-04-30 15:42:29
  * @LastEditors: ~
- * @LastEditTime: 2025-11-26 11:31:56
+ * @LastEditTime: 2025-12-15 10:39:19
 -->
 # 计划
 
@@ -61,7 +61,7 @@ export const getCustomTimes = (param) => {
 4.0 开发master_EnOC：国际化社区bugge处理
 5.0 模块开发：
 5.1 AppHealth：less的集成
-5.2 小程序开发：商城开发
+5.2 小程序开发：思尔模块小程序：商城（20251203-20260209）
 6.0 Dealer 三控件更新
 7.0 其他计划
 
