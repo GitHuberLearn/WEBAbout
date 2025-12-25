@@ -62,6 +62,9 @@ export const getCustomTimes = (param) => {
 5.0 模块开发：
 5.1 AppHealth：less的集成
 5.2 小程序开发：思尔模块小程序：商城（20251203-20260209）
+5.2.1 框架处理
+5.2.1.1 解决vendor.js占用过大问题
+
 6.0 Dealer 三控件更新
 7.0 其他计划
 
