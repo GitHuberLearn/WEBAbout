@@ -20,6 +20,7 @@ require("@/assets/image/image-loading.gif"),
 Ctrl+Windows+I：表头-保持会更新时间
 Ctrl+Windows+T：方法
 Ctrl+Windows+J：图案
+CSS Peek：页面中按住Ctrl，鼠标点击类名后稍等，会直接显示CSS样式
 ************** Command ***************
 
 ************** System ***************
