@@ -1,3 +1,6 @@
+9 23
+
+
 changeway
 
 更新：腾文Work信息
@@ -5,7 +8,7 @@ changeway
 1、地址：陕西省西安市雁塔区都市之门D座1709转8011
 2、联系方式：029-88603656
 3、入职时间：2022.03.14
-二、项目账号
+二、项目账号：8163：6*6 （dev/api）
 1、http://git.seer-health.com/user/login?redirect_to=
 	yangke@shxseer.com（1-6）
 2、WinSCP：
