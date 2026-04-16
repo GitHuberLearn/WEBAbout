@@ -4,7 +4,7 @@
  * @Author: Kenny
  * @Date: 20xx-xx-xx 10:07:00
  * @LastEditors: ~
- * @LastEditTime: 2026-01-14 09:33:27
+ * @LastEditTime: 2026-04-16 09:09:18
 -->
 # xx:xx 20xx-xx-xx - xx20xx-xx-xx
 
@@ -92,8 +92,12 @@ export const axiosPre = '/api/goview'
 ## eg: master-devx.0: 20xx-xx-xx ~ 20xx-xx-xx (原始版本)
 或者
 ## eg: masterx.0: 20xx-xx-xx ~ 20xx-xx-xx (原始版本)
-✅ xx
-✔  子x
++ 模块
+*  说明
+✔  一般说明
+✅ 特别说明
+- 关联模块
+
 ## eg: masterx.1: 20xx-xx-xx ~ 20xx-xx-xx (开发版本) 
 ## eg: masterx.2: 20xx-xx-xx ~ 20xx-xx-xx (发布版本) DONE
 ## eg: masterx.3: 20xx-xx-xx ~ 20xx-xx-xx (维护版本)
