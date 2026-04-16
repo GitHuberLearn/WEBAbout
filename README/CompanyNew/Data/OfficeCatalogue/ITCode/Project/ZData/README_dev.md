@@ -4,7 +4,7 @@
  * @Author: Kenny
  * @Date: 20xx-xx-xx 10:07:00
  * @LastEditors: ~
- * @LastEditTime: 2025-11-05 13:47:40
+ * @LastEditTime: 2026-04-16 09:18:18
 -->
 # xx:xx 20xx-xx-xx - xx20xx-xx-xx
 
@@ -13,10 +13,10 @@
 + x
 * ..
 # URL
-- 生产：x
-- 测试：x
-- 本地：http://localhost:xx
-- xx/xx
+✅ 生产：x
+✅ 测试：x
+✅ 本地：http://localhost:xx
+✔  xx/xx
 ```
 
 ## 项目开发
@@ -92,10 +92,15 @@ export const axiosPre = '/api/goview'
 ## eg: master-devx.0: 20xx-xx-xx ~ 20xx-xx-xx (原始版本)
 或者
 ## eg: masterx.0: 20xx-xx-xx ~ 20xx-xx-xx (原始版本)
-+ xx
-* 子x
-## eg: masterx.1: 20xx-xx-xx ~ 20xx-xx-xx (发布版本) DONE
-## eg: masterx.2: 20xx-xx-xx ~ 20xx-xx-xx (维护版本)
++ 模块
+*  说明
+✔  一般说明
+✅ 特别说明
+- 关联模块
+
+## eg: masterx.1: 20xx-xx-xx ~ 20xx-xx-xx (开发版本) 
+## eg: masterx.2: 20xx-xx-xx ~ 20xx-xx-xx (发布版本) DONE
+## eg: masterx.3: 20xx-xx-xx ~ 20xx-xx-xx (维护版本)
 
 ⭐ 配置项
 - 每变更当下会备份一个分支
@@ -118,15 +123,17 @@ export const axiosPre = '/api/goview'
 * MOCK: MOCK文件
 * control: 控制集成文件
 * updateNewRemove: 替代者 新项目移除此方式
-- 一般的：x.0(原始篇)，x.1(发版篇)，x.2 (维护篇)
+- 一般的：x.0(原始篇)，x.1(开发版本)，x.2 (发布版本)DONE，x.3 (维护篇)
 * 新迭代项目需要进行备份分支x.x.1
 ```
 
 ### 相关Code
 
 ```js
-//部署环境不能写的格式
-- template包含?.符号
+//部署环境打包异常的格式
+- ESNext写法
++ 可选链（?.）
++ 空值合并（??）
 //message
 //type: 状态
 - primary

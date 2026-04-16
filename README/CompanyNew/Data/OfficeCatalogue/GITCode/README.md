@@ -9,6 +9,6 @@
 # 目录说明
 
 ```bash
-## Data：workspace文件夹（所有项目）
+## Data：项目文件
 ## GIT：Git文件夹
 ```

@@ -4,7 +4,7 @@
  * @Author: Kenny
  * @Date: 2023-07-17 11:12:53
  * @LastEditors: ~
- * @LastEditTime: 2024-12-30 13:58:22
+ * @LastEditTime: 2025-12-17 10:24:23
  */
 [
   [1, { title: "三七粉", ellipsis: "ellipsis" }, 10],
@@ -20,3 +20,80 @@
   [11, { title: "黄芪", ellipsis: "ellipsis" }, 1],
   [12, { title: "玻璃酸钠", ellipsis: "ellipsis" }, 1],
 ];
+
+//类型
+const props = defineProps({
+  // 布尔值（默认 false）
+  isActive: {
+    type: Boolean,
+    default: false,
+  },
+
+  // 字符串（默认 "default"）
+  title: {
+    type: String,
+    default: "default",
+  },
+
+  // 数字（默认 0）
+  count: {
+    type: Number,
+    default: 0,
+  },
+  // 数组（默认空数组）
+  tags: {
+    type: Array,
+    default: () => [], // 默认值必须是函数返回
+  },
+
+  // 对象（默认空对象）
+  user: {
+    type: Object,
+    default: () => ({ name: "John", age: 30 }), // 默认值必须是函数返回
+  },
+
+  // 复杂对象（带验证）
+  config: {
+    type: Object,
+    required: true,
+    validator: (value) => {
+      return "apiUrl" in value && "timeout" in value; // 必须包含 apiUrl 和 timeout
+    },
+  },
+
+  // 多种类型（String 或 Number）
+  id: {
+    type: [String, Number],
+    default: "default-id",
+  },
+
+  // Symbol（默认 Symbol('id')）
+  id: {
+    type: Symbol,
+    default: Symbol("id"),
+  },
+
+  // BigInt（默认 0n）
+  bigNumber: {
+    type: BigInt,
+    default: 0n,
+  },
+
+  // 函数（默认空函数）
+  onClick: {
+    type: Function,
+    default: () => console.log("Clicked!"),
+  },
+
+  // 带参数的函数
+  onUpdate: {
+    type: Function,
+    validator: (fn) => typeof fn === "function", // 确保是函数
+  },
+
+  // 必传字符串
+  requiredTitle: {
+    type: String,
+    required: true, // 父组件必须传递
+  },
+});

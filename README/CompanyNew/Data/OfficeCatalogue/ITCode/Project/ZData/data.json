@@ -1,4 +1,249 @@
 {
-    "nam": "ddd",
-    "kjd": "dddd"
+    "userId": "56a4cf824d4740eb88001d50fd4025e2",
+    "proUnitName": "台",
+    "shopId": "cd4e7d8f52df41c497f95a0102a8c965",
+    "addressId": "6d1ab6b92b4c4d2e8a79040a97e7093d",
+    "id": "e36332474cb54d1a8d10f31836a78f67",
+    "claimId": null,
+    "commodityTitle": "2698手表",
+    "commodityDes": "11",
+    "commodityImg": "https://uat.seer-health.com/static/attachment/f3460d7a00c74c96a3d34e46e899d619.jpg",
+    "totalOrderMoney": "2698.00",
+    "useBalance": "0",
+    "useBalanceMoney": "0.00",
+    "useSubsidyStatus": "0",
+    "useSubsidyMoney": "0.00",
+    "useScoreAmount": "0",
+    "useScoreMoney": "0.00",
+    "userScoreStatus": "0",
+    "products": [
+        {
+            "discountPrice": 2698,
+            "productId": "a7451f7a2f174459a7beea9f2e1a226d",
+            "productAttrId": null,
+            "productAttrIds": "",
+            "productMoney": 2698,
+            "productNumber": 1,
+            "productPrice": 2698,
+            "repertoryNumber": 9983
+        }
+    ],
+    "freightMoney": 0,
+    "orderSource": "h5",
+    "mealForm": {
+        "mealName": "半年服务期",
+        "serviceBasicVoList": [
+            {
+                "id": "halfYeartAllService-h01",
+                "serviceName": "血糖+分析",
+                "serviceTime": 6,
+                "serviceTimeType": "M",
+                "serviceCode": "bloodGlucose;bloodGlucoseAnalysis"
+            },
+            {
+                "id": "halfYeartAllService-h02",
+                "serviceName": "血压",
+                "serviceTime": 6,
+                "serviceTimeType": "M",
+                "serviceCode": "bloodPressure"
+            },
+            {
+                "id": "halfYeartAllService-h03",
+                "serviceName": "心率",
+                "serviceTime": 6,
+                "serviceTimeType": "M",
+                "serviceCode": "heartRate"
+            },
+            {
+                "id": "halfYeartAllService-h04",
+                "serviceName": "微循环预估",
+                "serviceTime": 6,
+                "serviceTimeType": "M",
+                "serviceCode": "kValue"
+            },
+            {
+                "id": "halfYeartAllService-h05",
+                "serviceName": "未病预估",
+                "serviceTime": 6,
+                "serviceTimeType": "M",
+                "serviceCode": "riskForecast"
+            },
+            {
+                "id": "halfYeartAllService-h06",
+                "serviceName": "动脉预估",
+                "serviceTime": 6,
+                "serviceTimeType": "M",
+                "serviceCode": "arteriosclerosis"
+            },
+            {
+                "id": "halfYeartAllService-h07",
+                "serviceName": "风险预估",
+                "serviceTime": 6,
+                "serviceTimeType": "M",
+                "serviceCode": "suddenDeath"
+            },
+            {
+                "id": "halfYeartAllService-h08",
+                "serviceName": "健康周报",
+                "serviceTime": 6,
+                "serviceTimeType": "M",
+                "serviceCode": "dailyReport"
+            },
+            {
+                "id": "halfYeartAllService-h09",
+                "serviceName": "疲劳预估",
+                "serviceTime": 6,
+                "serviceTimeType": "M",
+                "serviceCode": "tired"
+            },
+            {
+                "id": "halfYeartAllService-h10",
+                "serviceName": "血液运行",
+                "serviceTime": 6,
+                "serviceTimeType": "M",
+                "serviceCode": "bloodFlowState"
+            },
+            {
+                "id": "halfYeartAllService-h11",
+                "serviceName": "糖化血红蛋白",
+                "serviceTime": 6,
+                "serviceTimeType": "M",
+                "serviceCode": "sugar"
+            },
+            {
+                "id": "halfYeartAllService-h12",
+                "serviceName": "用药记录",
+                "serviceTime": 6,
+                "serviceTimeType": "M",
+                "serviceCode": "MedicalRecords"
+            },
+            {
+                "id": "halfYeartAllService-h13",
+                "serviceName": "体温",
+                "serviceTime": 6,
+                "serviceTimeType": "M",
+                "serviceCode": "temperature"
+            },
+            {
+                "id": "halfYeartAllService-h14",
+                "serviceName": "心功能",
+                "serviceTime": 6,
+                "serviceTimeType": "M",
+                "serviceCode": "cardiacFunction"
+            },
+            {
+                "id": "halfYeartAllService-h15",
+                "serviceName": "脑功能",
+                "serviceTime": 6,
+                "serviceTimeType": "M",
+                "serviceCode": "brainFunction"
+            },
+            {
+                "id": "halfYeartAllService-h16",
+                "serviceName": "肺功能",
+                "serviceTime": 6,
+                "serviceTimeType": "M",
+                "serviceCode": "lungFunction"
+            },
+            {
+                "id": "halfYeartAllService-h17",
+                "serviceName": "肾功能",
+                "serviceTime": 6,
+                "serviceTimeType": "M",
+                "serviceCode": "renal"
+            },
+            {
+                "id": "halfYeartAllService-h18",
+                "serviceName": "睡眠监测",
+                "serviceTime": 6,
+                "serviceTimeType": "M",
+                "serviceCode": "sleep"
+            },
+            {
+                "id": "halfYeartAllService-h19",
+                "serviceName": "心理评估",
+                "serviceTime": 6,
+                "serviceTimeType": "M",
+                "serviceCode": "PsychologicalEvaluation"
+            },
+            {
+                "id": "halfYeartAllService-h21",
+                "serviceName": "肝功能",
+                "serviceTime": 6,
+                "serviceTimeType": "M",
+                "serviceCode": "liverFunction"
+            },
+            {
+                "id": "halfYeartAllService-h22",
+                "serviceName": "血压分析",
+                "serviceTime": 6,
+                "serviceTimeType": "M",
+                "serviceCode": "bloodPressureAnalysis"
+            },
+            {
+                "id": "halfYeartAllService-h23",
+                "serviceName": "健康与亚健康",
+                "serviceTime": 6,
+                "serviceTimeType": "M",
+                "serviceCode": "healthAndSub-health"
+            },
+            {
+                "id": "halfYeartAllService-h24",
+                "serviceName": "用药评估",
+                "serviceTime": 6,
+                "serviceTimeType": "M",
+                "serviceCode": "medicationEvaluation"
+            }
+        ],
+        "serviceOptionalVoList": [
+            {
+  "id": "b-m6-12",
+  "mealType": 0,
+  "servicePrice": 10,
+  "servicePriceV2": 0,
+  "serviceDisPrice": 0.01,
+  "serviceTime": 6,
+  "serviceTimeType": "M",
+  "chooseType": 1,
+  "isBuy": 1,
+  "isShowPrice": 1,
+  "serviceCode": "suddenDeath",
+  "serviceName": "风险预估",
+  "state": null,
+  "tallServiceId": "7",
+  "tmealId": "4"
+}
+        ]
+    },
+    "mutiAttrValueList": [
+        {
+            "id": "c62051e58b234c159938e3276eec3c42",
+            "categoryAttrId": "0cd288d4c25f4149a9e150ae82215f4d",
+            "attrValue": "手表款式",
+            "productPrice": "",
+            "discountPrice": "",
+            "imgUrl": "",
+            "attrs": [
+                {
+                    "id": "2a544fafe20a4c47994e28bff20bffb6",
+                    "productAttrId": "c62051e58b234c159938e3276eec3c42",
+                    "attrName": "轻奢银",
+                    "attrPic": "",
+                    "refId": "92",
+                    "refName": null,
+                    "price": null,
+                    "disPrice": null,
+                    "proType": null,
+                    "mealType": 0
+                }
+            ]
+        }
+    ],
+    "isAgreeInstallment": "1",
+    "isAgreeParticipate": "0",
+    "orderDescribe": "",
+    "orderTitle": "",
+    "proGiftInfoId": "",
+    "proInstallmentIds": "",
+    "useDiscountPrice": "0"
 }
