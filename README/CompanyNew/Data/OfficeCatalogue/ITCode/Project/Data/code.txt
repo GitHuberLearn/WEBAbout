@@ -24,7 +24,8 @@ Ctrl+Windows+T：方法
 Ctrl+Windows+J：图案
 CSS Peek：页面中按住Ctrl，鼠标点击类名后稍等，会直接显示CSS样式
 ************** Command ***************
-
+nvm list
+nvm use xxx
 ************** System ***************
 Windows+I：wind设置
 ipconfig：192.168.10.56  8866
