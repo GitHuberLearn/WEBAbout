@@ -4,7 +4,7 @@
  * @Author: Kenny
  * @Date: 2018-11-10 10:42:05
  * @LastEditors: ~
- * @LastEditTime: 2025-11-06 20:41:51
+ * @LastEditTime: 2026-06-10 14:38:03
 -->
 
 # WEB_about （2018-）
@@ -14,7 +14,8 @@
 - 提交失败
 * VPN提交
 * 手动设置git的代理：git config --global http.proxy "127.0.0.1:7890"
-* npm install --registry=https://registry.npmmirror.com
+* 设置镜像源：npm install --registry=https://registry.npmmirror.com
++ 查看：npm config get registry
 ```
 
 ## README：README模板 （2024.05.30 - 2024-07-31）
