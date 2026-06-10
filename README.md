@@ -11,8 +11,10 @@
 
 ```bash
 - 前端事业工具信息文件
-- 提交失败需要开VPN提交
-- 或者手动设置git的代理：git config --global http.proxy "127.0.0.1:7890"
+- 提交失败
+* VPN提交
+* 手动设置git的代理：git config --global http.proxy "127.0.0.1:7890"
+* npm install --registry=https://registry.npmmirror.com
 ```
 
 ## README：README模板 （2024.05.30 - 2024-07-31）
